@@ -19,17 +19,18 @@ export default function Work() {
         <div className="flex justify-between items-center py-8">
           <div className="flex items-center gap-6 font-semibold text-sm">
             <span className="rounded-3xl px-4 py-2 bg-gray-200 hover:bg-gray-300 cursor-pointer">
-              Clones
+              All
             </span>
+            <span>Clones</span>
+            <span>MVPs</span>
+            <span>Open Source</span>
+            <span>Freelance</span>
             <span className="hover:opacity-50 cursor-pointer">Designs</span>
-            <span>My MVPs</span>
-            <span>Collabs</span>
             <span>Accessibility</span>
             <span>Responsive</span>
             <span>Optimized</span>
             <span>Frameworks</span>
             <span>Animations</span>
-            <span>Open Source</span>
           </div>
           <Link
             href="/toolbox"
@@ -54,8 +55,8 @@ export default function Work() {
             </div>
           </Link>
         </div>
-        <div class="grid grid-cols-1 md:grid-cols-4 gap-4">
-          <div class="bg-blue-500 p-28 rounded-md relative">
+        <div className="grid grid-cols-1 md:grid-cols-4 gap-4">
+          <div className="bg-blue-500 p-28 rounded-md relative">
             <div className="absolute left-0 bottom-0 h-16 bg-slate-900 opacity-60 w-full rounded-b-md">
               <div className="flex justify-between items-center text-white py-4 px-3">
                 <span className="">AGILE</span>
@@ -64,19 +65,19 @@ export default function Work() {
             </div>
           </div>
 
-          <div class="bg-green-500 p-28 rounded-md relative">
+          <div className="bg-green-500 p-28 rounded-md relative">
             <div className="absolute left-0 bottom-0 h-16 bg-slate-900 opacity-50 w-full rounded-b-md"></div>
           </div>
 
-          <div class="bg-orange-500 p-28 rounded-md relative">
+          <div className="bg-orange-500 p-28 rounded-md relative">
             <div className="absolute left-0 bottom-0 h-16 bg-slate-900 opacity-50 w-full rounded-b-md"></div>
           </div>
 
-          <div class="bg-yellow-500 p-28 rounded-md relative">
+          <div className="bg-yellow-500 p-28 rounded-md relative">
             <div className="absolute left-0 bottom-0 h-16 bg-slate-900 opacity-50 w-full rounded-b-md"></div>
           </div>
 
-          <div class="bg-blue-500 p-28 rounded-md relative">
+          <div className="bg-blue-500 p-28 rounded-md relative">
             <div className="absolute left-0 bottom-0 h-16 bg-slate-900 opacity-60 w-full rounded-b-md">
               <div className="flex justify-between items-center text-white py-4 px-3">
                 <span className="">AGILE</span>
@@ -84,15 +85,15 @@ export default function Work() {
             </div>
           </div>
 
-          <div class="bg-green-500 p-28 rounded-md relative">
+          <div className="bg-green-500 p-28 rounded-md relative">
             <div className="absolute left-0 bottom-0 h-16 bg-slate-900 opacity-50 w-full rounded-b-md"></div>
           </div>
 
-          <div class="bg-orange-500 p-28 rounded-md relative">
+          <div className="bg-orange-500 p-28 rounded-md relative">
             <div className="absolute left-0 bottom-0 h-16 bg-slate-900 opacity-50 w-full rounded-b-md"></div>
           </div>
 
-          <div class="bg-yellow-500 p-28 rounded-md relative">
+          <div className="bg-yellow-500 p-28 rounded-md relative">
             <div className="absolute left-0 bottom-0 h-16 bg-slate-900 opacity-50 w-full rounded-b-md"></div>
           </div>
         </div>

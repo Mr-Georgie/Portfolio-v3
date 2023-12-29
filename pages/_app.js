@@ -6,7 +6,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 function App({ Component, pageProps }) {
   return (
-    <div className={inter.className}>
+    <div className={`${inter.className}`}>
       <Head>
         <link rel="icon" href="/favicon.png" />
       </Head>

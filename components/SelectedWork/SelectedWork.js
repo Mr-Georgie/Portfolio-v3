@@ -30,11 +30,11 @@ export const SelectedWork = () => {
         </Link>
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-        <div className="border-2 rounded-md relative">
+        <div className="border-2 rounded-md relative cursor-pointer hover:opacity-90">
           <Image
             src={"/../../cofolios.png"}
             alt="apps context image"
-            className="w-full"
+            className="w-full rounded-md cursor-pointer"
             width={400}
             height={400}
           />
@@ -45,17 +45,17 @@ export const SelectedWork = () => {
           </div>
         </div>
 
-        <div className="border-2 rounded-md relative">
+        <div className="border-2 rounded-md relative cursor-pointer hover:opacity-90">
           <Image
-            src={"/../../cofolios.png"}
+            src={"/../../port.png"}
             alt="apps context image"
-            className="w-full"
+            className="w-full rounded-md cursor-pointer"
             width={400}
             height={400}
           />
           <div className="absolute left-0 bottom-0 h-16 bg-slate-900 opacity-80 w-full rounded-b-md">
             <div className="flex text-white py-4 px-3">
-              <span className="">COFOLIOS</span>
+              <span className="">PORTFOLIO</span>
             </div>
           </div>
         </div>
