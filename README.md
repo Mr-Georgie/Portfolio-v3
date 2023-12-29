@@ -3,8 +3,8 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 This version 3 of my portfolio features an entirely new design with focus on projects
 
 ## Preview
+<img width="1440" alt="George Isiguzo version 3" src="https://github.com/Mr-Georgie/Portfolio-v3/assets/28518667/2ed470e8-4867-430c-90c0-87374929e724">
 
-<img width="1440" alt="Screenshot 2023-12-29 at 18 03 04" src="https://github.com/Mr-Georgie/Portfolio-v3/assets/28518667/faf6f820-8f55-4f78-a2fd-1380fcb898bc">
 
 ## Getting Started
 
