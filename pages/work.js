@@ -1,4 +1,6 @@
+import { Filter } from "@/components/Filter/Filter";
 import { Navbar } from "@/components/Navbar/Navbar";
+import workList from "@/Data/workList";
 import Head from "next/head";
 import Link from "next/link";
 
@@ -16,27 +18,15 @@ export default function Work() {
             Experiences are what defines who we are.
           </span>
         </div>
-        <div className="flex justify-between items-center py-8">
-          <div className="flex items-center gap-6 font-semibold text-sm">
-            <span className="rounded-3xl px-4 py-2 bg-gray-200 hover:bg-gray-300 cursor-pointer">
-              All
-            </span>
-            <span>Clones</span>
-            <span>MVPs</span>
-            <span>Open Source</span>
-            <span>Freelance</span>
-            <span className="hover:opacity-50 cursor-pointer">Designs</span>
-            <span>Accessibility</span>
-            <span>Responsive</span>
-            <span>Optimized</span>
-            <span>Frameworks</span>
-            <span>Animations</span>
-          </div>
+        <div className="flex justify-between items-center py-8 gap-14">
+          <Filter filterList={workList} />
           <Link
             href="/toolbox"
             className="font-light flex gap-2 hover:opacity-50"
           >
-            <div className="">tech stack</div>
+            <div className="">
+              <span className="hidden md:block">my</span> tools
+            </div>
             <div>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -44,7 +34,7 @@ export default function Work() {
                 viewBox="0 0 24 24"
                 strokeWidth={1.5}
                 stroke="currentColor"
-                className="w-6 h-6"
+                className="md:w-3 md:h-3 w-6 h-6"
               >
                 <path
                   strokeLinecap="round"

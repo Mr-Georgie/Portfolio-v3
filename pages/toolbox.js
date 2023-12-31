@@ -1,3 +1,5 @@
+import skillsList from "@/Data/skillsList";
+import { Filter } from "@/components/Filter/Filter";
 import { Navbar } from "@/components/Navbar/Navbar";
 import Head from "next/head";
 import Link from "next/link";
@@ -18,20 +20,7 @@ export default function Toolbox() {
           </span>
         </div>
         <div className="flex justify-between items-center py-8">
-          <div className="flex items-center gap-6 font-semibold text-sm">
-            <span className="rounded-3xl px-4 py-2 bg-gray-200 hover:bg-gray-300 cursor-pointer">
-              Frontend
-            </span>
-            <span className="hover:opacity-50 cursor-pointer">Backend</span>
-            <span>Design</span>
-            <span>Project Management</span>
-            <span>Cloud</span>
-            <span>Other Skills</span>
-            <span>DevOps</span>
-            <span>Version Control</span>
-            <span>Testing</span>
-            <span>Streaming</span>
-          </div>
+          <Filter filterList={skillsList} />
           <Link
             href="/contact"
             className="font-light flex gap-2 hover:opacity-50"
