@@ -1,7 +1,6 @@
 import { Navbar } from "@/components/Navbar/Navbar";
 import Head from "next/head";
 import Image from "next/image";
-import Link from "next/link";
 
 export default function Portfolio() {
   return (
@@ -21,18 +20,18 @@ export default function Portfolio() {
           <div className="grid grid-cols-1 md:grid-cols-2">
             <div className="flex flex-col items-center">
               <div className="flex flex-col items-center gap-6 font-semibold pb-10 md:py-0">
-                <Link
+                <a
                   href="https://github.com/Mr-Georgie/Portfolio"
                   className="rounded-3xl py-2 bg-gray-200 hover:bg-gray-300 cursor-pointer w-72 md:w-44 text-center"
                 >
                   Github Repo
-                </Link>
-                <Link
+                </a>
+                <a
                   href="https://georgeisiguzo.netlify.app/"
                   className="rounded-3xl py-2 bg-gray-200 hover:bg-gray-300 cursor-pointer w-72 md:w-44 text-center"
                 >
                   Live Site
-                </Link>
+                </a>
               </div>
             </div>
             <div className="">

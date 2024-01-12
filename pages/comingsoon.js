@@ -1,6 +1,5 @@
 import { Navbar } from "@/components/Navbar/Navbar";
 import Head from "next/head";
-import Link from "next/link";
 
 export default function ComingSoon() {
   return (
@@ -21,12 +20,12 @@ export default function ComingSoon() {
             <div className="">
               <p className="font-light text-sm">
                 My Projects, the Tools/Tech Stacks I used. Populating them from{" "}
-                <Link
+                <a
                   href="https://github.com/mr-georgie"
                   className="underline text-indigo-600"
                 >
                   Github Repo
-                </Link>
+                </a>
               </p>
             </div>
             <div className="mt-20">

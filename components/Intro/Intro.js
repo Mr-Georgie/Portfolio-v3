@@ -4,7 +4,7 @@ export const Intro = () => {
       <div className="col-span-2">
         <div className="flex flex-col gap-8">
           <div className="text-5xl font-light">
-            Hello, I'm <br /> George Isiguzo
+            Hello, {" I'm"} <br /> George Isiguzo
           </div>
           <div className="hidden sm:block">
             <svg

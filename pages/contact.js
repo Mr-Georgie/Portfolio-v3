@@ -1,6 +1,5 @@
 import { Navbar } from "@/components/Navbar/Navbar";
 import Head from "next/head";
-import Link from "next/link";
 
 export default function Contact() {
   return (
@@ -12,7 +11,7 @@ export default function Contact() {
         <Navbar />
         <div className="flex flex-col items-center py-10">
           <span className="font-light text-5xl py-4">Contact Me</span>
-          <span className="font-extralight">Let's collaborate.</span>
+          <span className="font-extralight">{"Let's collaborate."}</span>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-4 gap-10 py-10">
           <div>
@@ -27,11 +26,11 @@ export default function Contact() {
           <div>
             <div className="py-3">Find me</div>
             <div className="flex gap-4 font-extralight text-xs">
-              <Link href="https://www.linkedin.com/in/george-isiguzo-chinonye/">
+              <a href="https://www.linkedin.com/in/george-isiguzo-chinonye/">
                 LINKEDIN
-              </Link>
-              <Link href="https://github.com/Mr-Georgie">GITHUB</Link>
-              <Link href="https://twitter.com/GeorgeIsiguzo">TWITTER</Link>
+              </a>
+              <a href="https://github.com/Mr-Georgie">GITHUB</a>
+              <a href="https://twitter.com/GeorgeIsiguzo">TWITTER</a>
             </div>
           </div>
 
@@ -46,12 +45,10 @@ export default function Contact() {
           <div>
             <div className="py-3">Read My Blogs</div>
             <div className="flex gap-4 font-extralight text-xs">
-              <Link href="https://thereatcnewbie.hashnode.dev">
-                The React Newbie
-              </Link>
-              <Link href="https://footprints.hashnode.dev">
+              <a href="https://thereatcnewbie.hashnode.dev">The React Newbie</a>
+              <a href="https://footprints.hashnode.dev">
                 My Programming Footprints
-              </Link>
+              </a>
             </div>
           </div>
         </div>
@@ -63,23 +60,23 @@ export default function Contact() {
           <span>{" | "}</span>
           <span className="font-extralight text-xs">
             With inspo from{" "}
-            <Link href="https://joshglucas.com/" className="font-semibold">
+            <a href="https://joshglucas.com/" className="font-semibold">
               Josh Lucas
-            </Link>
+            </a>
             {", "}
-            <Link
+            <a
               href="https://dribbble.com/raflymizalfi"
               className="font-semibold"
             >
               Rafly Mizalfi
-            </Link>{" "}
+            </a>{" "}
             &{" "}
-            <Link
+            <a
               href="https://dribbble.com/search/personal-website-portfolio"
               className="font-semibold"
             >
               Dribble.com
-            </Link>
+            </a>
           </span>
         </div>
       </div>

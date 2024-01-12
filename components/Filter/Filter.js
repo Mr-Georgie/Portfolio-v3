@@ -5,7 +5,9 @@ export const Filter = ({ filterList }) => {
         All
       </span>
       {filterList.map((filter, index) => (
-        <span id={index}>{filter}</span>
+        <span key={index} id={index}>
+          {filter}
+        </span>
       ))}
     </div>
   );

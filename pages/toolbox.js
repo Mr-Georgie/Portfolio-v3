@@ -25,7 +25,7 @@ export default function Toolbox() {
             href="/contact"
             className="font-light flex gap-2 hover:opacity-50"
           >
-            <div className="">let's collaborate</div>
+            <div className="">{"let's collaborate"}</div>
             <div>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
