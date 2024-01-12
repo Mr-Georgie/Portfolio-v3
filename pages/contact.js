@@ -7,7 +7,7 @@ export default function Contact() {
       <Head>
         <title>Contact George Isiguzo</title>
       </Head>
-      <div className="min-h-screen w-full py-4 px-14">
+      <div className="min-h-screen w-full py-4 px-6 sm:px-14">
         <Navbar />
         <div className="flex flex-col items-center py-10">
           <span className="font-light text-5xl py-4">Contact Me</span>
@@ -52,12 +52,12 @@ export default function Contact() {
             </div>
           </div>
         </div>
-        <div className="flex justify-center gap-4 items-center pt-28">
+        <div className="flex flex-col sm:justify-center gap-4 items-center pt-28">
           <span className="font-extralight text-xs">
             Built with ❤️ by{" "}
             <span className="font-semibold">George Isiguzo</span>
           </span>
-          <span>{" | "}</span>
+          <span className="hidden sm:inline">{" | "}</span>
           <span className="font-extralight text-xs">
             With inspo from{" "}
             <a href="https://joshglucas.com/" className="font-semibold">

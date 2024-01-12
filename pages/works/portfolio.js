@@ -8,7 +8,7 @@ export default function Portfolio() {
       <Head>
         <title>My Works</title>
       </Head>
-      <div className="min-h-screen w-full py-10 px-14">
+      <div className="min-h-screen w-full py-10 px-6 sm:px-14">
         <Navbar />
         <div className="flex flex-col items-center py-10">
           <span className="font-light text-5xl py-4">Portfolio v2</span>
