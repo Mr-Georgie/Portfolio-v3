@@ -1,7 +1,6 @@
 import { Navbar } from "@/components/Navbar/Navbar";
 import Head from "next/head";
 import Image from "next/image";
-import img02 from "/../../port.png";
 
 export default function Portfolio() {
   return (
@@ -50,7 +49,7 @@ export default function Portfolio() {
         <div className="py-6 lg:px-60">
           <div className="flex justify-center border rounded-lg">
             <Image
-              src={img02}
+              src={"/../../static/images/port.png"}
               alt="apps context image"
               className="w-full"
               width={400}
