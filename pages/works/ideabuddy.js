@@ -1,6 +1,7 @@
 import { Navbar } from "@/components/Navbar/Navbar";
 import Head from "next/head";
 import Image from "next/image";
+import img01 from "/../../ideabuddy.png";
 
 export default function IdeaBuddy() {
   return (
@@ -51,7 +52,7 @@ export default function IdeaBuddy() {
         <div className="py-6 lg:px-60">
           <div className="flex justify-center border rounded-lg">
             <Image
-              src={"/../../ideabuddy.png"}
+              src={img01}
               alt="apps context image"
               className="w-full"
               width={400}

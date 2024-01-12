@@ -4,7 +4,7 @@ export const Navbar = () => {
   const onDarkMode = false;
 
   return (
-    <div className="flex justify-between py-8">
+    <div className="flex sm:justify-between py-8">
       <div></div>
       {/* <div
         className={`${
@@ -67,7 +67,7 @@ export const Navbar = () => {
           href="https://drive.google.com/file/d/1wxFzT08agpOzXccxUOasb6JdMRmAEWeK/view?usp=sharing"
           className="hover:opacity-50"
         >
-          Download Resume
+          See Resume
         </a>
         {/* <Link href="/contact" className="hover:opacity-50">
           Coming Soon

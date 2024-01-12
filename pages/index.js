@@ -9,7 +9,7 @@ export default function Home() {
       <Head>
         <title>George Isiguzo | Portfolio</title>
       </Head>
-      <div className="min-h-screen w-full py-4 px-14">
+      <div className="min-h-screen w-full py-4 px-6 sm:px-14">
         <Navbar />
         <Intro />
         <SelectedWork />

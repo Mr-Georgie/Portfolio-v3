@@ -1,5 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
+import img01 from "/../../ideabuddy.png";
+import img02 from "/../../port.png";
 
 export const SelectedWork = () => {
   return (
@@ -37,7 +39,7 @@ export const SelectedWork = () => {
           className="border-2 rounded-md relative cursor-pointer hover:opacity-90"
         >
           <Image
-            src={"/../../ideabuddy.png"}
+            src={img01}
             alt="apps context image"
             className="w-full rounded-md cursor-pointer"
             width={400}
@@ -55,7 +57,7 @@ export const SelectedWork = () => {
           className="border-2 rounded-md relative cursor-pointer hover:opacity-90"
         >
           <Image
-            src={"/../../port.png"}
+            src={img02}
             alt="apps context image"
             className="w-full rounded-md cursor-pointer"
             width={400}
