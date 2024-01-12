@@ -18,16 +18,20 @@ export default function Contact() {
           <div>
             <div className="py-3">Download Resume</div>
             <div className="flex gap-4 font-extralight text-xs">
-              <Link href="">Click on link</Link>
+              <a href="https://drive.google.com/file/d/1wxFzT08agpOzXccxUOasb6JdMRmAEWeK/view?usp=sharing">
+                Click on link
+              </a>
             </div>
           </div>
 
           <div>
             <div className="py-3">Find me</div>
             <div className="flex gap-4 font-extralight text-xs">
-              <Link href="">LINKEDIN</Link>
-              <Link href="">GITHUB</Link>
-              <Link href="">TWITTER</Link>
+              <Link href="https://www.linkedin.com/in/george-isiguzo-chinonye/">
+                LINKEDIN
+              </Link>
+              <Link href="https://github.com/Mr-Georgie">GITHUB</Link>
+              <Link href="https://twitter.com/GeorgeIsiguzo">TWITTER</Link>
             </div>
           </div>
 
@@ -42,8 +46,12 @@ export default function Contact() {
           <div>
             <div className="py-3">Read My Blogs</div>
             <div className="flex gap-4 font-extralight text-xs">
-              <Link href="">The React Newbie</Link>
-              <Link href="">My Programming Footprints</Link>
+              <Link href="https://thereatcnewbie.hashnode.dev">
+                The React Newbie
+              </Link>
+              <Link href="https://footprints.hashnode.dev">
+                My Programming Footprints
+              </Link>
             </div>
           </div>
         </div>

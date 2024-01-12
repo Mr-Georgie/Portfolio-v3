@@ -10,7 +10,9 @@ export const SelectedWork = () => {
           href="/work"
           className="font-light flex gap-2 items-center hover:opacity-50"
         >
-          <div className="text-xs sm:text-base">show more</div>
+          <Link href="/comingsoon" className="text-xs sm:text-base">
+            Coming Soon
+          </Link>
           <div>
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -30,9 +32,12 @@ export const SelectedWork = () => {
         </Link>
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-        <div className="border-2 rounded-md relative cursor-pointer hover:opacity-90">
+        <Link
+          href="/works/ideabuddy"
+          className="border-2 rounded-md relative cursor-pointer hover:opacity-90"
+        >
           <Image
-            src={"/../../cofolios.png"}
+            src={"/../../ideabuddy.png"}
             alt="apps context image"
             className="w-full rounded-md cursor-pointer"
             width={400}
@@ -40,12 +45,15 @@ export const SelectedWork = () => {
           />
           <div className="absolute left-0 bottom-0 h-16 bg-slate-900 opacity-80 w-full rounded-b-md">
             <div className="flex text-white py-4 px-3">
-              <span className="">COFOLIOS</span>
+              <span className="">IDEABUDDY</span>
             </div>
           </div>
-        </div>
+        </Link>
 
-        <div className="border-2 rounded-md relative cursor-pointer hover:opacity-90">
+        <Link
+          href="/works/portfolio"
+          className="border-2 rounded-md relative cursor-pointer hover:opacity-90"
+        >
           <Image
             src={"/../../port.png"}
             alt="apps context image"
@@ -58,7 +66,7 @@ export const SelectedWork = () => {
               <span className="">PORTFOLIO</span>
             </div>
           </div>
-        </div>
+        </Link>
       </div>
     </>
   );

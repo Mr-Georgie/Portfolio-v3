@@ -5,7 +5,8 @@ export const Navbar = () => {
 
   return (
     <div className="flex justify-between py-8">
-      <div
+      <div></div>
+      {/* <div
         className={`${
           onDarkMode
             ? "border-white transition-all duration-300"
@@ -54,23 +55,23 @@ export const Navbar = () => {
             />
           </svg>
         </div>
-      </div>
+      </div> */}
       <div className="flex gap-4">
         <Link href="/" className="hover:opacity-50">
           Home
         </Link>
-        <Link href="/work" className="hover:opacity-50">
-          Work
-        </Link>
-        <Link href="/toolbox" className="hover:opacity-50">
-          Toolbox
-        </Link>
         <Link href="/contact" className="hover:opacity-50">
           Contact
         </Link>
-        <Link href="/contact" className="hover:opacity-50">
-          Resume
-        </Link>
+        <a
+          href="https://drive.google.com/file/d/1wxFzT08agpOzXccxUOasb6JdMRmAEWeK/view?usp=sharing"
+          className="hover:opacity-50"
+        >
+          Download Resume
+        </a>
+        {/* <Link href="/contact" className="hover:opacity-50">
+          Coming Soon
+        </Link> */}
       </div>
     </div>
   );

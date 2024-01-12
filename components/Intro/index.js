@@ -1,3 +1,3 @@
 const { Intro } = require("./Intro");
 
-export Intro;
+export { Intro };

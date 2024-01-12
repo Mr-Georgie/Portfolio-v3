@@ -1,3 +1,3 @@
 const { SelectedWork } = require("./SelectedWork");
 
-export SelectedWork;
+export { SelectedWork };
