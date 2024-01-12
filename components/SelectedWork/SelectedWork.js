@@ -37,9 +37,11 @@ export const SelectedWork = () => {
           className="border-2 rounded-md relative cursor-pointer hover:opacity-90"
         >
           <Image
-            src={"/../../static/images/ideabuddy.png"}
-            alt="apps context image"
-            className="w-full rounded-md cursor-pointer"
+            src={
+              "https://github.com/Mr-Georgie/Portfolio-v3/blob/main/public/static/images/ideabuddy.png?raw=true"
+            }
+            alt="idea buddy screenshot"
+            className="w-full"
             width={400}
             height={400}
           />
@@ -55,9 +57,11 @@ export const SelectedWork = () => {
           className="border-2 rounded-md relative cursor-pointer hover:opacity-90"
         >
           <Image
-            src={"/../../static/images/port.png"}
-            alt="apps context image"
-            className="w-full rounded-md cursor-pointer"
+            src={
+              "https://github.com/Mr-Georgie/Portfolio-v3/blob/main/public/static/images/port.png?raw=true"
+            }
+            alt="portfolio screenshot"
+            className="w-full"
             width={400}
             height={400}
           />

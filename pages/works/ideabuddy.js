@@ -51,8 +51,10 @@ export default function IdeaBuddy() {
         <div className="py-6 lg:px-60">
           <div className="flex justify-center border rounded-lg">
             <Image
-              src={"/../../static/images/ideabuddy.png"}
-              alt="apps context image"
+              src={
+                "https://github.com/Mr-Georgie/Portfolio-v3/blob/main/public/static/images/ideabuddy.png?raw=true"
+              }
+              alt="idea buddy screenshot"
               className="w-full"
               width={400}
               height={400}

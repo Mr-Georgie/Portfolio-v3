@@ -49,8 +49,10 @@ export default function Portfolio() {
         <div className="py-6 lg:px-60">
           <div className="flex justify-center border rounded-lg">
             <Image
-              src={"/../../static/images/port.png"}
-              alt="apps context image"
+              src={
+                "https://github.com/Mr-Georgie/Portfolio-v3/blob/main/public/static/images/port.png?raw=true"
+              }
+              alt="portfolio image"
               className="w-full"
               width={400}
               height={400}

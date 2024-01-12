@@ -1,7 +1,11 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   images: {
-    domains: ["georgies-portfolio-v3.vercel.app", "georgeisiguzo.com"],
+    domains: [
+      "github.com",
+      "georgies-portfolio-v3.vercel.app",
+      "georgeisiguzo.com",
+    ],
   },
 };
 
