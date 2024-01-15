@@ -1,3 +1,5 @@
+import { Analytics } from "@vercel/analytics/react";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 import { Inter } from "next/font/google";
 import Head from "next/head";
 import "../styles/globals.css";
@@ -10,7 +12,11 @@ function App({ Component, pageProps }) {
       <Head>
         <link rel="icon" href="/favicon.png" />
       </Head>
-      <Component {...pageProps} />
+      <main>
+        <Component {...pageProps} />
+        <Analytics />
+        <SpeedInsights />
+      </main>
     </div>
   );
 }
