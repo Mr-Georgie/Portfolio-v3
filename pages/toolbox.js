@@ -1,6 +1,6 @@
-import skillsList from "@/Data/skillsList";
-import { Filter } from "@/components/Filter/Filter";
+import skillsList from "@/Data/skillsFilter";
 import { Navbar } from "@/components/Navbar/Navbar";
+import { Filter } from "@/components/Section/Section";
 import Head from "next/head";
 import Link from "next/link";
 

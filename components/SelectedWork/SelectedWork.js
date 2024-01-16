@@ -6,10 +6,7 @@ export const SelectedWork = () => {
     <>
       <div className="py-3 flex justify-between">
         <div className="sm:text-2xl font-light">Selected Work</div>
-        <Link
-          href="/work"
-          className="font-light flex gap-2 items-center hover:opacity-50"
-        >
+        <div className="font-light flex gap-2 items-center hover:opacity-50">
           <Link href="/comingsoon" className="text-xs sm:text-base">
             Coming Soon
           </Link>
@@ -29,11 +26,11 @@ export const SelectedWork = () => {
               />
             </svg>
           </div>
-        </Link>
+        </div>
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
         <Link
-          href="/works/ideabuddy"
+          href="/projects/ideabuddy"
           className="border-2 rounded-md relative cursor-pointer hover:opacity-90"
         >
           <Image
@@ -53,7 +50,7 @@ export const SelectedWork = () => {
         </Link>
 
         <Link
-          href="/works/portfolio"
+          href="/projects/portfolio"
           className="border-2 rounded-md relative cursor-pointer hover:opacity-90"
         >
           <Image

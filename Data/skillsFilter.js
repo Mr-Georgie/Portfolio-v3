@@ -1,4 +1,4 @@
-const skillsList = [
+const skillsFilter = [
   "Frontend",
   "Backend",
   "Design",
@@ -11,4 +11,4 @@ const skillsList = [
   "Streaming",
 ];
 
-export default skillsList;
+export default skillsFilter;

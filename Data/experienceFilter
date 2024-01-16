@@ -1,0 +1,3 @@
+const experienceFilter = ["Projects", "Experience", "Tools"];
+
+export default experienceFilter;
