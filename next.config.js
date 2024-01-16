@@ -6,6 +6,7 @@ const nextConfig = {
       "georgies-portfolio-v3.vercel.app",
       "georgeisiguzo.com",
       "georgeisiguzo.netlify.app",
+      "user-images.githubusercontent.com",
     ],
   },
 };

@@ -1,6 +1,5 @@
-import skillsList from "@/Data/skillsFilter";
 import { Navbar } from "@/components/Navbar/Navbar";
-import { Filter } from "@/components/Section/Section";
+// import { Filter } from "@/components/Section/Section";
 import Head from "next/head";
 import Link from "next/link";
 
@@ -20,7 +19,7 @@ export default function Toolbox() {
           </span>
         </div>
         <div className="flex justify-between items-center py-8">
-          <Filter filterList={skillsList} />
+          {/* <Filter filterList={skillsList} /> */}
           <Link
             href="/contact"
             className="font-light flex gap-2 hover:opacity-50"

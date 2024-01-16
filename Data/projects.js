@@ -1,18 +1,5 @@
 const projects = [
   {
-    id: "portfolio",
-    title: "Portfolio v2",
-    projectName: "Portfolio v2",
-    builtWith: "Built with ReactJS & TailwindCSS",
-    githubRepoLink: "https://github.com/Mr-Georgie/Portfolio",
-    liveSiteLink: "https://georgeisiguzo.netlify.app/",
-    imageSource:
-      "https://github.com/Mr-Georgie/Portfolio-v3/blob/main/public/static/images/port.png?raw=true",
-    projectDescription:
-      "This was the second version of my web portfolio <br /> <br />Built with ReactJS, TailwindCSS and Headless UI<br /> <br />Currently migrating projects from there to this current version<br /> <br />You can find some useful details about me over there",
-    category: ["responsive", "react"],
-  },
-  {
     id: "ideabuddy",
     title: "Idea Buddy",
     projectName: "Idea Buddy",
@@ -24,6 +11,19 @@ const projects = [
     projectDescription:
       "Idea Buddy is an intelligent and quick-thinking personal brainstorming partner designed to provide critical evaluation and feedback on ideas. \n In this project, I explored the OpenAI documentation which opened my eyes to the possibilities of AI-powered apps. \n I found out how the ChatGPT app uses tokens to communicate with OpenAI models. I also leveraged system prompts to customize the model to fit the purpose of the app.",
     category: ["responsive", "mvp", "next"],
+  },
+  {
+    id: "portfolio",
+    title: "Portfolio v2",
+    projectName: "Portfolio v2",
+    builtWith: "Built with ReactJS & TailwindCSS",
+    githubRepoLink: "https://github.com/Mr-Georgie/Portfolio",
+    liveSiteLink: "https://georgeisiguzo.netlify.app/",
+    imageSource:
+      "https://github.com/Mr-Georgie/Portfolio-v3/blob/main/public/static/images/port.png?raw=true",
+    projectDescription:
+      "This was the second version of my web portfolio <br /> <br />Built with ReactJS, TailwindCSS and Headless UI<br /> <br />Currently migrating projects from there to this current version<br /> <br />You can find some useful details about me over there",
+    category: ["responsive", "react"],
   },
   {
     id: "mojaglobal",
@@ -76,6 +76,58 @@ const projects = [
     projectDescription:
       "Veliso Design is an African-based app library that is being created to help product designers design better products by providing them with implementable product designs of already existing real world apps. \n The designs that will be available on Veliso would include designs for mobile apps, websites and web apps. \n Launching soon!",
     category: ["responsive", "freelance", "mvp", "backend"],
+  },
+  {
+    id: "movielibrary",
+    title: "Movie Library",
+    projectName: "Movie Library",
+    builtWith: "Built with ReactJS, Vanilla CSS, ExpressJS & Gophie Web API",
+    githubRepoLink: "https://github.com/Mr-Georgie/movie-library",
+    liveSiteLink: "https://moviee-library.netlify.app/",
+    imageSource:
+      "https://github.com/Mr-Georgie/Portfolio/blob/main/src/images/movie-library.gif?raw=true",
+    projectDescription:
+      "As a movie lover, I built Movie Library in 2021 to allow me easily download movies from popular movie download sites with the click of a button.",
+    category: ["responsive"],
+  },
+  {
+    id: "lanisterpay",
+    title: "Lanister Pay API",
+    projectName: "Lanister Pay API",
+    builtWith: "Built with NodeJS",
+    githubRepoLink: "https://github.com/Mr-Georgie/lannister-pay-api",
+    liveSiteLink: "",
+    imageSource:
+      "https://github.com/Mr-Georgie/Portfolio-v3/blob/main/public/static/images/api1.jpg?raw=true",
+    projectDescription:
+      "LannisterPay is a transaction payment splitting service (TPSS)",
+    category: ["api", "backend"],
+  },
+  {
+    id: "currencyapi",
+    title: "Currency Rates API",
+    projectName: "Currency Pay API",
+    builtWith: "Built with NodeJS",
+    githubRepoLink: "https://github.com/Mr-Georgie/currency-rates-api",
+    liveSiteLink: "",
+    imageSource:
+      "https://github.com/Mr-Georgie/Portfolio-v3/blob/main/public/static/images/api1.jpg?raw=true",
+    projectDescription:
+      "A service integration to the Exchange Rates API exposing a RESTful endpoint. \n The endpoint will accept requests and returns a JSON object of the latest currency rates.",
+    category: ["api", "backend"],
+  },
+  {
+    id: "rentme",
+    title: "RentMe API",
+    projectName: "RentMe API",
+    builtWith: "Built with Python, Django",
+    githubRepoLink: "https://github.com/Mr-Georgie/currency-rates-api",
+    liveSiteLink: "",
+    imageSource:
+      "https://github.com/Mr-Georgie/Portfolio-v3/blob/main/public/static/images/api1.jpg?raw=true",
+    projectDescription:
+      "A service thst allows individuals and organizations to lease equipments for long or short term use.",
+    category: ["api", "backend"],
   },
 ];
 
