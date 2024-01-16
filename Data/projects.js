@@ -13,7 +13,7 @@ const projects = [
     category: ["responsive", "mvp", "next"],
   },
   {
-    id: "portfolio",
+    id: "portfolio-v2",
     title: "Portfolio v2",
     projectName: "Portfolio v2",
     builtWith: "Built with ReactJS & TailwindCSS",
@@ -26,6 +26,20 @@ const projects = [
     category: ["responsive", "react"],
   },
   {
+    id: "veliso",
+    title: "Veliso Design",
+    projectName: "Veliso Design",
+    builtWith:
+      "Built with ReactJS, SpringBoot, ResendAPI, Google Drive API & TailwindCSS",
+    githubRepoLink: "https://github.com/doswin5/veliso-waitlist",
+    liveSiteLink: "https://veliso-waitlist.vercel.app/",
+    imageSource:
+      "https://georgeisiguzo.netlify.app/static/media/veliso-waitlist.640b5d8764cec83fa352.gif",
+    projectDescription:
+      "Veliso Design is an African-based app library that is being created to help product designers design better products by providing them with implementable product designs of already existing real world apps. \n The designs that will be available on Veliso would include designs for mobile apps, websites and web apps. \n Building the backend API with SpringBoot and the Admin Dashboard with ReactJS. I also integrated Resend API for sending emails on the waitlist page ",
+    category: ["responsive", "freelance", "mvp", "backend"],
+  },
+  {
     id: "mojaglobal",
     title: "Moja Global Community | Open Source",
     projectName: "Moja Global",
@@ -36,19 +50,33 @@ const projects = [
     imageSource:
       "	https://georgeisiguzo.netlify.app/static/media/moja.7accc77a4395ad73cc80.png",
     projectDescription:
-      "Moja Global is a not-for-profit, collaborative project that brings together a community of experts to develop open-source software that allows users to accurately and affordably estimate greenhouse gas emissions and removals from the AFOLU sector",
+      "Moja Global is a not-for-profit, collaborative project that brings together a community of experts to develop open-source software that allows users to accurately and affordably estimate greenhouse gas emissions and removals from the AFOLU sector. \n I fixed a bug on the Hero Section of the landing page responsive for smaller screens. See the issue on GitHub here: https://github.com/moja-global/community-website/issues/344",
     category: ["opensource", "react", "responsive"],
   },
   {
-    id: "ogunames",
-    title: "Ogunames",
-    projectName: "Ogunames",
-    builtWith: "Built with VueJS, Laravel & TailwindCSS",
-    githubRepoLink: "",
-    liveSiteLink: "https://ogunames.com",
+    id: "big-sis-wedding",
+    title: "Big Sis' Wedding!",
+    projectName: "Big Sis' Wedding!",
+    builtWith: "Built with ReactJS & TailwindCSS",
+    githubRepoLink: "https://github.com/Mr-Georgie/wedding-template",
+    liveSiteLink: "https://chinonso-weds-kester.netlify.app/",
     imageSource:
-      "https://georgeisiguzo.netlify.app/static/media/moja.7accc77a4395ad73cc80.png",
-    projectDescription: "",
+      "https://github.com/Mr-Georgie/wedding-template/blob/main/src/images/Screenshot%202024-01-16%20at%2018.39.07.png?raw=true",
+    projectDescription:
+      "Built one page website for my sister's wedding in 2022 to provide the guest with important details about the occassion. \n Guest can also download their invitation cards on the website",
+    category: ["responsive", "volunteer"],
+  },
+  {
+    id: "oguname",
+    title: "Oguname.com",
+    projectName: "Oguname.com",
+    builtWith: "Built with VueJS, Laravel & TailwindCSS",
+    githubRepoLink: "https://github.com/Mr-Georgie/ogunames-fe",
+    liveSiteLink: "https://oguname.com",
+    imageSource:
+      "https://github.com/Mr-Georgie/Portfolio-v3/blob/main/public/static/images/ogu.png?raw=true",
+    projectDescription:
+      "OguName.com is a web-based project that aspires to promote the digital inclusion and the preservation of the gun language. The gun language is spoken by the Ogu people who are a native of the West Africa coast. \n This project aims to archive the personal names of people from the ogu culture and documents the meanings, and the roots of ogu names in English Language. \n I contributed in building the User Interface with a group of fellow volunteers before handing it over to the organizers to complete the project",
     category: ["responsive", "volunteer"],
   },
   {
@@ -60,22 +88,9 @@ const projects = [
     liveSiteLink: "https://badagryanaesthesia.edu.ng/",
     imageSource:
       "https://georgeisiguzo.netlify.app/static/media/badagry-anaes.8a405617c57377f735df.png",
-    projectDescription: "",
-    category: ["responsive", "freelance"],
-  },
-  {
-    id: "veliso",
-    title: "Veliso Design",
-    projectName: "Veliso Design",
-    builtWith:
-      "Built with ReactJS, SpringBoot, ResendAPI, Google Drive API & TailwindCSS",
-    githubRepoLink: "https://github.com/doswin5/veliso-waitlist",
-    liveSiteLink: "https://veliso-waitlist.vercel.app/",
-    imageSource:
-      "https://georgeisiguzo.netlify.app/static/media/veliso-waitlist.640b5d8764cec83fa352.gif",
     projectDescription:
-      "Veliso Design is an African-based app library that is being created to help product designers design better products by providing them with implementable product designs of already existing real world apps. \n The designs that will be available on Veliso would include designs for mobile apps, websites and web apps. \n Launching soon!",
-    category: ["responsive", "freelance", "mvp", "backend"],
+      "Developed a comprehensive web application for Badagry Anaesthesia, School of Anaesthetic in Lagos, Nigeria. I was solely responsible for crafting the user interface based on the client's Figma prototype, ensuring a seamless and intuitive experience. \n I Implemented key features including landing pages, login and signup, student dashboard, admin dashboard, and computer-based testing section. I utilized a tech stack consisting of HTML, CSS, Bootstrap CDN, and TailwindCSS for efficient and responsive design.",
+    category: ["responsive", "freelance"],
   },
   {
     id: "movielibrary",
@@ -91,16 +106,29 @@ const projects = [
     category: ["responsive"],
   },
   {
+    id: "portfolio v1",
+    title: "Portfolio v1",
+    projectName: "Portfolio v1",
+    builtWith: "Built with ReactJS, Headless UI & TailwindCSS",
+    githubRepoLink: "https://github.com/Mr-Georgie/Portfolio",
+    liveSiteLink: "https://georgeisiguzo-v1.netlify.app/",
+    imageSource:
+      "https://github.com/Mr-Georgie/wedding-template/blob/main/src/images/Screenshot%202024-01-16%20at%2019.29.13.png?raw=true",
+    projectDescription:
+      "The first version of my web portfolio. \n I enjoyed building it as I got to practice conditional rendering in ReactJS and other ReactJS concepts I just learned",
+    category: ["responsive"],
+  },
+  {
     id: "lanisterpay",
     title: "Lanister Pay API",
     projectName: "Lanister Pay API",
-    builtWith: "Built with NodeJS",
+    builtWith: "Built with NodeJS/ExpressJS",
     githubRepoLink: "https://github.com/Mr-Georgie/lannister-pay-api",
     liveSiteLink: "",
     imageSource:
       "https://github.com/Mr-Georgie/Portfolio-v3/blob/main/public/static/images/api1.jpg?raw=true",
     projectDescription:
-      "LannisterPay is a transaction payment splitting service (TPSS)",
+      "LannisterPay is a transaction payment splitting service (TPSS). \n This API was created for the 2022 Tech Heroes Interview by Flutterwave",
     category: ["api", "backend"],
   },
   {

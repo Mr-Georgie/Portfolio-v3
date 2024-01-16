@@ -60,6 +60,9 @@ export const Navbar = () => {
         <Link href="/" className="hover:opacity-50">
           Home
         </Link>
+        <Link href="/experiences" className="hover:opacity-50">
+          Portfolio
+        </Link>
         <Link href="/contact" className="hover:opacity-50">
           Contact
         </Link>
@@ -69,9 +72,6 @@ export const Navbar = () => {
         >
           See Resume
         </a>
-        {/* <Link href="/contact" className="hover:opacity-50">
-          Coming Soon
-        </Link> */}
       </div>
     </div>
   );

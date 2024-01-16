@@ -7,8 +7,8 @@ export const SelectedWork = () => {
       <div className="py-3 flex justify-between">
         <div className="sm:text-2xl font-light">Selected Work</div>
         <div className="font-light flex gap-2 items-center hover:opacity-50">
-          <Link href="/comingsoon" className="text-xs sm:text-base">
-            Coming Soon
+          <Link href="/experiences" className="text-xs sm:text-base">
+            See Portfolio
           </Link>
           <div>
             <svg
