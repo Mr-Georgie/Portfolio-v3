@@ -171,14 +171,14 @@ export default function Experiences({ section }) {
                   What I did
                 </h4>
                 <p className="dark:text-white text-sm sm:text-base">
-                  Translated the client's Figma design into an intuitive{" "}
+                  Translated the{" client's "}Figma design into an intuitive{" "}
                   <Link
                     href="/projects/badagryanaesthesia"
                     className="underline"
                   >
                     user Interface
                   </Link>{" "}
-                  My focus was on:"
+                  My focus was on:
                 </p>
                 <div className="dark:text-white py-3 text-xs sm:text-sm flex flex-col gap-2">
                   <div className="grid grid-cols-12 gap-4">
