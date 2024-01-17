@@ -1,6 +1,11 @@
 import { Navbar } from "@/components/Navbar/Navbar";
 import { Section } from "@/components/Section/Section";
 import projects from "@/Data/projects";
+import {
+  librariesAndFrameworks,
+  programmingLanguages,
+  toolsAndPlatforms,
+} from "@/Data/tools";
 import Head from "next/head";
 import Image from "next/image";
 import Link from "next/link";
@@ -37,7 +42,7 @@ export default function Experiences({ section }) {
                   alt={`${project.title} screenshot`}
                   layout="fill"
                   objectFit="contain"
-                  placeholder="blur"
+                  //   placeholder="blur"
                 />
                 <div className="absolute left-0 bottom-0 h-16 bg-slate-900 opacity-80 w-full rounded-b-md">
                   <div className="flex text-white py-4 px-3">
@@ -51,12 +56,33 @@ export default function Experiences({ section }) {
         )}
 
         {section === "list" && (
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:mx-24 lg:mx-36">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:mx-[70px] lg:mx-36">
+            <div className=" hidden md:flex md:items-center">
+              <div className="">
+                <h3 className="font-semibold text-2xl my-2">
+                  Backend Engineer @{" "}
+                  <Link
+                    href="https://en.wikipedia.org/wiki/Flutterwave"
+                    className="text-indigo-400 cursor-pointer"
+                  >
+                    Flutterwave
+                  </Link>
+                </h3>
+                <h6 className="font-mono font-extralight text-xs">
+                  August 2022 - Present (Fulltime)
+                </h6>
+              </div>
+            </div>
             <div className="my-8">
               <div className="md:hidden">
                 <h3 className="font-semibold text-lg my-2">
                   Backend Engineer @{" "}
-                  <span className="text-indigo-400">Flutterwave</span>
+                  <Link
+                    href="https://en.wikipedia.org/wiki/Flutterwave"
+                    className="text-indigo-400 cursor-pointer"
+                  >
+                    Flutterwave
+                  </Link>
                 </h3>
                 <h6 className="font-mono font-extralight text-xs">
                   August 2022 - Present (Fulltime)
@@ -144,25 +170,34 @@ export default function Experiences({ section }) {
                 </div>
               </div>
             </div>
-            <div className="border-l hidden md:flex md:justify-center md:items-center">
-              <div className="md:px-10">
+
+            {/*  */}
+            <div className=" hidden md:flex md:items-center">
+              <div className="">
                 <h3 className="font-semibold text-2xl my-2">
-                  Backend Engineer @{" "}
-                  <span className="text-indigo-400">Flutterwave</span>
+                  Frontend Developer @{" "}
+                  <Link
+                    href="https://badagryanaesthesia.edu.ng/"
+                    className="text-indigo-400 cursor-pointer"
+                  >
+                    School of <br /> Anaesthetic Studies, Badagry
+                  </Link>
                 </h3>
                 <h6 className="font-mono font-extralight text-xs">
-                  August 2022 - Present (Fulltime)
+                  January 2022 - July 2022 (Contract)
                 </h6>
               </div>
             </div>
-
             <div className="my-8">
               <div className="md:hidden">
                 <h3 className="font-semibold text-lg my-2">
                   Frontend Developer @{" "}
-                  <span className="text-indigo-400">
+                  <Link
+                    href="https://badagryanaesthesia.edu.ng/"
+                    className="text-indigo-400 cursor-pointer"
+                  >
                     School of <br /> Anaesthetic Studies, Badagry
-                  </span>
+                  </Link>
                 </h3>
                 <h6 className="font-mono font-extralight text-xs">
                   January 2022 - July 2022 (Contract)
@@ -254,25 +289,34 @@ export default function Experiences({ section }) {
                 </div>
               </div>
             </div>
-            <div className="border-l hidden md:flex md:justify-center md:items-center">
-              <div className="md:px-10">
+
+            {/*  */}
+            <div className=" hidden md:flex md:items-center">
+              <div className="">
                 <h3 className="font-semibold text-2xl my-2">
-                  Frontend Developer @{" "}
-                  <span className="text-indigo-400">
-                    School of <br /> Anaesthetic Studies, Badagry
-                  </span>
+                  Backend Developer @ <br />
+                  <Link
+                    href="https://www.crunchbase.com/organization/zuri-team"
+                    className="text-indigo-400 cursor-pointer"
+                  >
+                    Zuri Team Inc.
+                  </Link>
                 </h3>
                 <h6 className="font-mono font-extralight text-xs">
-                  January 2022 - July 2022 (Contract)
+                  March 2021 - August 2021 (Internship)
                 </h6>
               </div>
             </div>
-
             <div className="my-8">
               <div className="md:hidden">
                 <h3 className="font-semibold text-lg my-2">
                   Backend Developer @{" "}
-                  <span className="text-indigo-400">Zuri Team Inc.</span>
+                  <Link
+                    href="https://www.crunchbase.com/organization/zuri-team"
+                    className="text-indigo-400 cursor-pointer"
+                  >
+                    Zuri Team Inc.
+                  </Link>
                 </h3>
                 <h6 className="font-mono font-extralight text-xs">
                   March 2021 - August 2021 (Internship)
@@ -366,32 +410,59 @@ export default function Experiences({ section }) {
                 </div>
               </div>
             </div>
-            <div className="border-l hidden md:flex md:justify-center md:items-center">
-              <div className="md:px-10">
-                <h3 className="font-semibold text-2xl my-2">
-                  Backend Developer @{" "}
-                  <span className="text-indigo-400">Zuri Team Inc.</span>
-                </h3>
-                <h6 className="font-mono font-extralight text-xs">
-                  March 2021 - August 2021 (Internship)
-                </h6>
-              </div>
-            </div>
           </div>
         )}
 
         {section === "tools" && (
-          <div className="flex justify-center italic">Coming soon...</div>
-          //   <div className="grid grid-cols-1 md:grid-cols-4 gap-4">
-          //     <div className="bg-blue-500 p-28 rounded-md relative">
-          //       <div className="absolute left-0 bottom-0 h-16 bg-slate-900 opacity-60 w-full rounded-b-md">
-          //         <div className="flex justify-between items-center text-white py-4 px-3">
-          //           <span className="">AGILE</span>
-          //           {/* <span className="text-xs">Click to see more</span> */}
-          //         </div>
-          //       </div>
-          //     </div>
-          //   </div>
+          <>
+            <div className="my-4">
+              <div>
+                <h3 className="my-3 text-xs">Programming Languages: </h3>
+              </div>
+              <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4">
+                {programmingLanguages.map((language, index) => (
+                  <div
+                    key={index}
+                    className="border bg-blue-300 w-full rounded-md text-white p-4"
+                  >
+                    <span className="font-bold uppercase">{language}</span>
+                  </div>
+                ))}
+              </div>
+            </div>
+            {/*  */}
+            <div className="my-4">
+              <div>
+                <h3 className="my-3 text-xs">Libraries{" & "}Frameworks : </h3>
+              </div>
+              <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4">
+                {librariesAndFrameworks.map((language, index) => (
+                  <div
+                    key={index}
+                    className="border bg-green-300 w-full rounded-md text-white p-4"
+                  >
+                    <span className="font-bold uppercase">{language}</span>
+                  </div>
+                ))}
+              </div>
+            </div>
+            {/*  */}
+            <div className="my-4">
+              <div>
+                <h3 className="my-3 text-xs">Tools{" & "}Platforms : </h3>
+              </div>
+              <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4">
+                {toolsAndPlatforms.map((language, index) => (
+                  <div
+                    key={index}
+                    className="border bg-orange-300 w-full rounded-md text-white p-4"
+                  >
+                    <span className="font-bold uppercase">{language}</span>
+                  </div>
+                ))}
+              </div>
+            </div>
+          </>
         )}
       </div>
     </div>
