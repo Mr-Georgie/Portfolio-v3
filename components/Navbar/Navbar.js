@@ -70,7 +70,7 @@ export const Navbar = () => {
           href="https://drive.google.com/file/d/17yV-lmzUH3dR_7vmyghzNHBcMPSBCnNj/view?usp=sharing"
           className="hover:opacity-50"
         >
-          See Resume
+          Resume
         </a>
       </div>
     </div>
