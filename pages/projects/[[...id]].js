@@ -59,7 +59,7 @@ export default function ProjectPage({ id }) {
           <div className="flex justify-center border rounded-lg">
             <Image
               src={project.imageSource}
-              alt="idea buddy screenshot"
+              alt={`${project.projectName} screen`}
               className="w-full"
               width={400}
               height={400}

@@ -2,7 +2,9 @@ import Link from "next/link";
 
 export const Section = ({ section }) => {
   return (
-    <div className="flex items-center gap-6 font-semibold text-sm overflow-x-scroll scrollbar-hidden">
+    <div
+      className={`flex items-center gap-6 font-semibold text-sm overflow-x-scroll scrollbar-hidden ${styles["hide-scrollbar"]}`}
+    >
       <Link
         href="/experiences/projects"
         className={`${

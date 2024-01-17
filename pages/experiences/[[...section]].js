@@ -37,6 +37,7 @@ export default function Experiences({ section }) {
                   alt={`${project.title} screenshot`}
                   layout="fill"
                   objectFit="contain"
+                  placeholder="blur"
                 />
                 <div className="absolute left-0 bottom-0 h-16 bg-slate-900 opacity-80 w-full rounded-b-md">
                   <div className="flex text-white py-4 px-3">
@@ -380,7 +381,7 @@ export default function Experiences({ section }) {
         )}
 
         {section === "tools" && (
-          <div className=" italic">Coming soon...</div>
+          <div className="flex justify-center italic">Coming soon...</div>
           //   <div className="grid grid-cols-1 md:grid-cols-4 gap-4">
           //     <div className="bg-blue-500 p-28 rounded-md relative">
           //       <div className="absolute left-0 bottom-0 h-16 bg-slate-900 opacity-60 w-full rounded-b-md">
