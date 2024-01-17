@@ -1,5 +1,5 @@
 import Link from "next/link";
-import styles from "../../styles/globals.css";
+import styles from "./section.module.css";
 
 export const Section = ({ section }) => {
   return (
