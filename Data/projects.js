@@ -48,7 +48,7 @@ const projects = [
       "https://github.com/moja-global/community-website/issues/344",
     liveSiteLink: "https://community.moja.global/",
     imageSource:
-      "	https://georgeisiguzo.netlify.app/static/media/moja.7accc77a4395ad73cc80.png",
+      "https://github.com/Mr-Georgie/Portfolio-v3/blob/main/public/static/images/moja.png?raw=true",
     projectDescription:
       "Moja Global is a not-for-profit, collaborative project that brings together a community of experts to develop open-source software that allows users to accurately and affordably estimate greenhouse gas emissions and removals from the AFOLU sector. \n I fixed a bug on the Hero Section of the landing page responsive for smaller screens. See the issue on GitHub here: https://github.com/moja-global/community-website/issues/344",
     category: ["opensource", "react", "responsive"],

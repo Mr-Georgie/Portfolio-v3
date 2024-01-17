@@ -61,7 +61,7 @@ export const Navbar = () => {
           Home
         </Link>
         <Link href="/experiences" className="hover:opacity-50">
-          Portfolio
+          Experiences
         </Link>
         <Link href="/contact" className="hover:opacity-50">
           Contact

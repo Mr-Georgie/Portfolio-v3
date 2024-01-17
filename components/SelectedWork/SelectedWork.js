@@ -8,7 +8,7 @@ export const SelectedWork = () => {
         <div className="sm:text-2xl font-light">Selected Work</div>
         <div className="font-light flex gap-2 items-center hover:opacity-50">
           <Link href="/experiences" className="text-xs sm:text-base">
-            See Portfolio
+            show more
           </Link>
           <div>
             <svg
