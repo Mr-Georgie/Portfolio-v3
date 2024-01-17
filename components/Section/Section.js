@@ -12,7 +12,7 @@ export const Section = ({ section }) => {
         <span className="rounded-3xl px-2 py-1 bg-orange-200 text-xs">10+</span>
         Projects
       </Link>
-      {/* <Link
+      <Link
         href="/experiences/list"
         className={`${
           section === "list" ? "bg-gray-200" : ""
@@ -21,7 +21,7 @@ export const Section = ({ section }) => {
         <span className="rounded-3xl px-2 py-1 bg-orange-200 text-xs">3</span>
         Experiences
       </Link>
-      <Link
+      {/* <Link
         href="/experiences/tools"
         className={`${
           section === "tools" ? "bg-gray-200" : ""

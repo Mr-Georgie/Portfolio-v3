@@ -50,7 +50,7 @@ export const SelectedWork = () => {
         </Link>
 
         <Link
-          href="/projects/portfolio"
+          href="/projects/portfolio-v2"
           className="border-2 rounded-md relative cursor-pointer hover:opacity-90"
         >
           <Image
