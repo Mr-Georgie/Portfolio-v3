@@ -21,6 +21,10 @@ const librariesAndFrameworks = [
   "Mockito",
   "Django",
   "Flask",
+  "MongoDB",
+  "MySQL",
+  "PosgreSQL",
+  "GraphQL",
 ];
 
 // Tools & Platforms
