@@ -67,7 +67,7 @@ export const Navbar = () => {
           Contact
         </Link>
         <a
-          href="https://drive.google.com/file/d/1wxFzT08agpOzXccxUOasb6JdMRmAEWeK/view?usp=sharing"
+          href="https://drive.google.com/file/d/17yV-lmzUH3dR_7vmyghzNHBcMPSBCnNj/view?usp=sharing"
           className="hover:opacity-50"
         >
           See Resume
