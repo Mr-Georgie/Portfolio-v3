@@ -12,7 +12,9 @@ export const Section = ({ section }) => {
           section === "projects" ? "bg-gray-200" : ""
         } flex gap-2 rounded-3xl px-4 py-2 hover:bg-gray-300 cursor-pointer`}
       >
-        <span className="rounded-3xl px-2 py-1 bg-orange-200 text-xs">15+</span>
+        <span className="rounded-3xl px-2 py-1 bg-orange-200 text-xs hidden sm:inline">
+          15+
+        </span>
         Projects
       </Link>
       <Link
@@ -21,7 +23,9 @@ export const Section = ({ section }) => {
           section === "list" ? "bg-gray-200" : ""
         } flex gap-2 rounded-3xl px-4 py-2 hover:bg-gray-300 cursor-pointer`}
       >
-        <span className="rounded-3xl px-2 py-1 bg-orange-200 text-xs">3</span>
+        <span className="rounded-3xl px-2 py-1 bg-orange-200 text-xs hidden sm:inline">
+          3
+        </span>
         Experiences
       </Link>
       <Link
@@ -30,7 +34,9 @@ export const Section = ({ section }) => {
           section === "tools" ? "bg-gray-200" : ""
         } flex gap-2 rounded-3xl px-4 py-2 hover:bg-gray-300 cursor-pointer`}
       >
-        <span className="rounded-3xl px-2 py-1 bg-orange-200 text-xs">20+</span>
+        <span className="rounded-3xl px-2 py-1 bg-orange-200 text-xs hidden sm:inline">
+          20+
+        </span>
         Tools
       </Link>
     </div>
