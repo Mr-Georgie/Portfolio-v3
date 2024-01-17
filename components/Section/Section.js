@@ -1,4 +1,5 @@
 import Link from "next/link";
+import styles from "../../styles/globals.css";
 
 export const Section = ({ section }) => {
   return (
