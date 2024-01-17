@@ -45,6 +45,7 @@ export default function Experiences({ section }) {
                 </div>
               </Link>
             ))}
+            <div className="italic">still populating projects...</div>
           </div>
         )}
 
@@ -379,16 +380,17 @@ export default function Experiences({ section }) {
         )}
 
         {section === "tools" && (
-          <div className="grid grid-cols-1 md:grid-cols-4 gap-4">
-            <div className="bg-blue-500 p-28 rounded-md relative">
-              <div className="absolute left-0 bottom-0 h-16 bg-slate-900 opacity-60 w-full rounded-b-md">
-                <div className="flex justify-between items-center text-white py-4 px-3">
-                  <span className="">AGILE</span>
-                  {/* <span className="text-xs">Click to see more</span> */}
-                </div>
-              </div>
-            </div>
-          </div>
+          <div className=" italic">Coming soon...</div>
+          //   <div className="grid grid-cols-1 md:grid-cols-4 gap-4">
+          //     <div className="bg-blue-500 p-28 rounded-md relative">
+          //       <div className="absolute left-0 bottom-0 h-16 bg-slate-900 opacity-60 w-full rounded-b-md">
+          //         <div className="flex justify-between items-center text-white py-4 px-3">
+          //           <span className="">AGILE</span>
+          //           {/* <span className="text-xs">Click to see more</span> */}
+          //         </div>
+          //       </div>
+          //     </div>
+          //   </div>
         )}
       </div>
     </div>
