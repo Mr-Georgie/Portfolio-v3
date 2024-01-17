@@ -42,7 +42,7 @@ export default function Experiences({ section }) {
                   alt={`${project.title} screenshot`}
                   layout="fill"
                   objectFit="contain"
-                  //   placeholder="blur"
+                  placeholder="blur"
                 />
                 <div className="absolute left-0 bottom-0 h-16 bg-slate-900 opacity-80 w-full rounded-b-md">
                   <div className="flex text-white py-4 px-3">
