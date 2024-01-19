@@ -1,5 +1,6 @@
 import { Navbar } from "@/components/Navbar/Navbar";
 import Head from "next/head";
+import Link from "next/link";
 
 export default function Contact() {
   return (
@@ -17,9 +18,9 @@ export default function Contact() {
           <div>
             <div className="py-3">Download Resume</div>
             <div className="flex gap-4 font-extralight text-xs">
-              <a href="https://drive.google.com/file/d/1wxFzT08agpOzXccxUOasb6JdMRmAEWeK/view?usp=sharing">
-                Click on link
-              </a>
+              <Link href="/resume" className="hover:opacity-50">
+                Click here
+              </Link>
             </div>
           </div>
 
@@ -45,10 +46,8 @@ export default function Contact() {
           <div>
             <div className="py-3">Read My Blogs</div>
             <div className="flex gap-4 font-extralight text-xs">
-              <a href="https://thereatcnewbie.hashnode.dev">The React Newbie</a>
-              <a href="https://footprints.hashnode.dev">
-                My Programming Footprints
-              </a>
+              <a href="https://blog.georgeisiguzo.com">My Blog</a>
+              <a href="https://footprints.hashnode.dev">My Other Blog</a>
             </div>
           </div>
         </div>

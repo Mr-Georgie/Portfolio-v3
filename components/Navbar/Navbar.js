@@ -66,12 +66,9 @@ export const Navbar = () => {
         <Link href="/contact" className="hover:opacity-50">
           Contact
         </Link>
-        <a
-          href="https://drive.google.com/file/d/17yV-lmzUH3dR_7vmyghzNHBcMPSBCnNj/view?usp=sharing"
-          className="hover:opacity-50"
-        >
+        <Link href="/resume" className="hover:opacity-50">
           Resume
-        </a>
+        </Link>
       </div>
     </div>
   );

@@ -22,7 +22,7 @@ const projects = [
     imageSource:
       "https://github.com/Mr-Georgie/Portfolio-v3/blob/main/public/static/images/port.png?raw=true",
     projectDescription:
-      "This was the second version of my web portfolio <br /> <br />Built with ReactJS, TailwindCSS and Headless UI<br /> <br />Currently migrating projects from there to this current version<br /> <br />You can find some useful details about me over there",
+      "This was the second version of my web portfolio \n Built with ReactJS, TailwindCSS and Headless UI. It's mobile responsive and has the light/dark theme switch feature",
     category: ["responsive", "react"],
   },
   {
