@@ -40,6 +40,19 @@ const projects = [
     category: ["responsive", "freelance", "mvp", "backend"],
   },
   {
+    id: "express-card-api",
+    title: "Express Card API",
+    projectName: "Express Card API",
+    builtWith: "Built with Express.js, MySQL, and Sequelize",
+    githubRepoLink: "https://github.com/Mr-Georgie/express-card-api",
+    liveSiteLink: "",
+    imageSource:
+      "https://github.com/Mr-Georgie/Portfolio-v3/blob/main/public/static/images/api1.jpg?raw=true",
+    projectDescription:
+      "The Express Card API is a simulation of a card-api integration. It features a modular architecture with the main entry point defined in 'index.js' and utilizes ECMAScript modules ('type': 'module') \n It utilizes Express.js for web framework functionality, Nodemon for automatic server restarts, Body Parser for parsing HTTP request bodies, dotenv for environment variable management, MySQL2 for MySQL database connectivity, Node-fetch for making HTTP requests, and Sequelize as an ORM for interacting with the database.",
+    category: ["api", "backend"],
+  },
+  {
     id: "mojaglobal",
     title: "Moja Global Community | Open Source",
     projectName: "Moja Global",

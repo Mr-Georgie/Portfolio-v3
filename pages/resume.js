@@ -13,7 +13,7 @@ export default function Toolbox() {
         <div className="flex flex-col items-center py-10">
           <span className="font-light text-5xl py-4">My Resume</span>
           <span className="font-extralight">
-            We could be just a few clicks away from building something awesome
+            We are just a few clicks away from building something awesome
             together!
           </span>
         </div>
