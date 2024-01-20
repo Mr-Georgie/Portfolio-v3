@@ -51,7 +51,6 @@ export default function Experiences({ section }) {
                 </div>
               </Link>
             ))}
-            <div className="italic">still populating projects...</div>
           </div>
         )}
 
