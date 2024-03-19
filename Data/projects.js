@@ -49,7 +49,7 @@ const projects = [
     imageSource:
       "https://github.com/Mr-Georgie/Portfolio-v3/blob/main/public/static/images/api1.jpg?raw=true",
     projectDescription:
-      "This application automates the process of creating email accounts for new hires in an organization. \n It generates email addresses based on the provided information, allows setting mailbox capacity, and generates temporary passwords for new accounts.\n This code was refactored from a previously written app to showcase OOP design principles like designing classes and objects, implementing encapsulation with private variables and public methods for setting and getting information.\n It also includes features like string manipulation, random generation,",
+      "This application automates the process of creating email accounts for new hires in an organization. \n It generates email addresses based on the provided information, allows setting mailbox capacity, and generates temporary passwords for new accounts.\n This code was refactored from a previously written app to showcase OOP design principles like implementing encapsulation with private variables and public methods for setting and getting information.",
     category: ["clean-code", "oop", "automation", "backend"],
   },
   {
