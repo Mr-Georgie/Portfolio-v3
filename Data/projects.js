@@ -40,6 +40,19 @@ const projects = [
     category: ["responsive", "freelance", "mvp", "backend"],
   },
   {
+    id: "java-email-admin",
+    title: "Java Email Administrator",
+    projectName: "Java Email Administrator",
+    builtWith: "Core Java",
+    githubRepoLink: "https://github.com/Mr-Georgie/java-email-app",
+    liveSiteLink: "https://github.com/Mr-Georgie/java-email-app",
+    imageSource:
+      "https://github.com/Mr-Georgie/Portfolio-v3/blob/main/public/static/images/api1.jpg?raw=true",
+    projectDescription:
+      "This application automates the process of creating email accounts for new hires in an organization. \n It generates email addresses based on the provided information, allows setting mailbox capacity, and generates temporary passwords for new accounts.\n This code was refactored from a previously written app to showcase OOP design principles like designing classes and objects, implementing encapsulation with private variables and public methods for setting and getting information.\n It also includes features like string manipulation, random generation,",
+    category: ["clean-code", "oop", "automation", "backend"],
+  },
+  {
     id: "express-card-api",
     title: "Express Card API",
     projectName: "Express Card API",
