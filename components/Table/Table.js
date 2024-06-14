@@ -25,7 +25,7 @@ export const TableComponent = ({ backend }) => {
         {backend.map((project) => (
           <TableRow key={project.id}>
             <TableCell className="font-medium">{project.year}</TableCell>
-            <TableCell className="w-[290px]">
+            <TableCell className="w-[290px] font-semibold dark:font-normal">
               <Link
                 href={`/backend/${project.id}`}
                 className="cursor-pointer text-[#2a4c55] dark:text-[#6ac4db] hover:underline"
