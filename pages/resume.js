@@ -21,7 +21,8 @@ export default function Toolbox() {
           <div>
             <a
               href="https://drive.google.com/file/d/17yV-lmzUH3dR_7vmyghzNHBcMPSBCnNj/view?usp=sharing"
-              className="rounded-3xl px-8 py-4 bg-gray-200 hover:bg-gray-300 cursor-pointer"
+              className="rounded-3xl px-8 py-4 bg-gray-200 hover:bg-gray-300 
+              dark:bg-[#366571] dark:hover:bg-[#274952] cursor-pointer"
             >
               Download Resume
             </a>

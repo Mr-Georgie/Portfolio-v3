@@ -31,14 +31,14 @@ export const SelectedWork = () => {
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
         <Link
           href="/projects/ideabuddy"
-          className="border-2 rounded-md relative cursor-pointer hover:opacity-90"
+          className="border-2 dark:border-0 rounded-md relative cursor-pointer hover:opacity-90"
         >
           <Image
             src={
               "https://github.com/Mr-Georgie/Portfolio-v3/blob/main/public/static/images/ideabuddy.png?raw=true"
             }
             alt="idea buddy screenshot"
-            className="w-full"
+            className="w-full dark:opacity-80 rounded-md"
             width={400}
             height={400}
           />
@@ -51,14 +51,14 @@ export const SelectedWork = () => {
 
         <Link
           href="/projects/movielibrary"
-          className="border-2 rounded-md relative cursor-pointer hover:opacity-90"
+          className="border-2 dark:border-0 rounded-md relative cursor-pointer hover:opacity-90"
         >
           <Image
             src={
               "https://github.com/Mr-Georgie/Portfolio/blob/main/src/images/movie-library.gif?raw=true"
             }
             alt="movie lib screenshot"
-            className="w-full"
+            className="w-full dark:opacity-80 rounded-md"
             width={400}
             height={400}
           />

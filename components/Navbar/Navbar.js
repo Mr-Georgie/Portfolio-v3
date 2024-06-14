@@ -1,62 +1,25 @@
+import { useTheme } from "@/context/ThemeContext";
 import Link from "next/link";
+import { Button } from "../ui/button";
+import { Label } from "../ui/label";
+import { Sheet, SheetContent, SheetTrigger } from "../ui/sheet";
+import { Switch } from "../ui/switch";
 
 export const Navbar = () => {
-  const onDarkMode = false;
+  const { onDarkMode, toggleTheme } = useTheme();
 
   return (
-    <div className="flex sm:justify-between py-8">
-      <div></div>
-      {/* <div
-        className={`${
-          onDarkMode
-            ? "border-white transition-all duration-300"
-            : "border-slate-800 transition-all duration-300"
-        } border rounded-full py-1 px-2 flex gap-4`}
-      >
-        <div>
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            className={`${
-              onDarkMode
-                ? "transition-colors bg-transparent duration-300"
-                : "transition-colors bg-black/[.5] duration-300"
-            } h-6 w-6 cursor-pointer rounded-full p-1 text-white`}
-            fill="none"
-            viewBox="0 0 24 24"
-            stroke="currentColor"
-            strokeWidth={2}
-            // onClick={() => themeToggler(false)}
-          >
-            <path
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z"
-            />
-          </svg>
-        </div>
-        <div>
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            className={`${
-              onDarkMode
-                ? "transition-colors bg-white duration-300"
-                : "transition-colors duration-300"
-            } h-6 w-6 cursor-pointer rounded-full p-1`}
-            fill="none"
-            viewBox="0 0 24 24"
-            stroke="currentColor"
-            strokeWidth={2}
-            // onClick={() => themeToggler(true)}
-          >
-            <path
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z"
-            />
-          </svg>
-        </div>
-      </div> */}
-      <div className="flex gap-4">
+    <div className="flex justify-between py-8">
+      <div className="flex items-center space-x-2">
+        <Label htmlFor="light-mode">☀️</Label>
+        <Switch
+          id="dark-mode"
+          checked={onDarkMode}
+          onCheckedChange={toggleTheme}
+        />
+        <Label htmlFor="dark-mode">🌙</Label>
+      </div>
+      <div className="gap-4 hidden md:flex">
         <Link href="/" className="hover:opacity-50">
           Home
         </Link>
@@ -69,6 +32,42 @@ export const Navbar = () => {
         <Link href="/resume" className="hover:opacity-50">
           Resume
         </Link>
+      </div>
+      <div className="md:hidden">
+        <Sheet>
+          <SheetTrigger asChild>
+            <Button variant="ghost">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                fill="currentColor"
+                className="size-6"
+              >
+                <path
+                  fillRule="evenodd"
+                  d="M3 6.75A.75.75 0 0 1 3.75 6h16.5a.75.75 0 0 1 0 1.5H3.75A.75.75 0 0 1 3 6.75ZM3 12a.75.75 0 0 1 .75-.75h16.5a.75.75 0 0 1 0 1.5H3.75A.75.75 0 0 1 3 12Zm8.25 5.25a.75.75 0 0 1 .75-.75h8.25a.75.75 0 0 1 0 1.5H12a.75.75 0 0 1-.75-.75Z"
+                  clipRule="evenodd"
+                />
+              </svg>
+            </Button>
+          </SheetTrigger>
+          <SheetContent>
+            <div className="gap-4 flex flex-col">
+              <Link href="/" className="hover:opacity-50">
+                Home
+              </Link>
+              <Link href="/experiences" className="hover:opacity-50">
+                Experiences
+              </Link>
+              <Link href="/contact" className="hover:opacity-50">
+                Contact
+              </Link>
+              <Link href="/resume" className="hover:opacity-50">
+                Resume
+              </Link>
+            </div>
+          </SheetContent>
+        </Sheet>
       </div>
     </div>
   );

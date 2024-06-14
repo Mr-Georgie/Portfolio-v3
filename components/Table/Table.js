@@ -28,7 +28,7 @@ export const TableComponent = ({ backend }) => {
             <TableCell className="w-[290px]">
               <Link
                 href={`/backend/${project.id}`}
-                className="cursor-pointer text-blue-400 hover:underline"
+                className="cursor-pointer text-[#2a4c55] dark:text-[#6ac4db] hover:underline"
               >
                 {project.projectName}
               </Link>

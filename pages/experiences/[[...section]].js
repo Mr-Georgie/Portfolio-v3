@@ -32,13 +32,14 @@ export default function Experiences({ section }) {
               <Link
                 key={project.id}
                 href={`/projects/${project.id}`}
-                className="border-2 rounded-md relative cursor-pointer hover:opacity-90 h-[180px] w-full"
+                className="border-2 dark:border-0 rounded-md relative cursor-pointer hover:opacity-90 h-[180px] w-full"
               >
                 <Image
                   src={project.imageSource}
                   alt={`${project.title} screenshot`}
                   layout="fill"
                   objectFit="contain"
+                  className="dark:opacity-80 rounded-md"
                 />
                 <div className="absolute left-0 bottom-0 h-16 bg-slate-900 opacity-80 w-full rounded-b-md">
                   <div className="flex text-white py-4 px-3">

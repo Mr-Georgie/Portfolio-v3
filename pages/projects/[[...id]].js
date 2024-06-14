@@ -30,13 +30,13 @@ export default function ProjectPage({ id }) {
               <div className="flex flex-col items-center gap-6 font-semibold pb-10 md:py-0">
                 <a
                   href={project.githubRepoLink}
-                  className="rounded-3xl py-2 bg-gray-200 hover:bg-gray-300 cursor-pointer w-72 md:w-44 text-center"
+                  className="rounded-3xl py-2 bg-gray-200 hover:bg-gray-300 dark:bg-[#366571] dark:hover:bg-[#274952] cursor-pointer w-72 md:w-44 text-center"
                 >
                   Github Repo
                 </a>
                 <a
                   href={project.liveSiteLink}
-                  className="rounded-3xl py-2 bg-gray-200 hover:bg-gray-300 cursor-pointer w-72 md:w-44 text-center"
+                  className="rounded-3xl py-2 bg-gray-200 hover:bg-gray-300 dark:bg-[#366571] dark:hover:bg-[#274952] cursor-pointer w-72 md:w-44 text-center"
                 >
                   Live Site
                 </a>
@@ -56,11 +56,11 @@ export default function ProjectPage({ id }) {
           </div>
         </div>
         <div className="py-6 lg:px-60">
-          <div className="flex justify-center border rounded-lg">
+          <div className="flex justify-center border dark:border-0 rounded-lg">
             <Image
               src={project.imageSource}
               alt={`${project.projectName} screen`}
-              className="w-full"
+              className="w-full dark:opacity-80 rounded-lg"
               width={400}
               height={400}
             />
