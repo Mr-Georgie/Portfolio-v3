@@ -51,7 +51,7 @@ const projects = [
       "Veliso Design is an African-based app library that is being created to help product designers design better products by providing them with implementable product designs of already existing real world apps. \n The designs that will be available on Veliso would include designs for mobile apps, websites and web apps. \n Building the backend API with SpringBoot and the Admin Dashboard with ReactJS. I also integrated Resend API for sending emails on the waitlist page ",
     category: ["responsive", "freelance", "mvp", "backend"],
     year: "2023",
-    madeAt: "Personal",
+    madeAt: "Veliso",
   },
   {
     id: "java-email-admin",
