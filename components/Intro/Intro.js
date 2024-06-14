@@ -25,12 +25,15 @@ export const Intro = () => {
         </div>
       </div>
       <div className="col-span-3 font-extralight">
-        A software developer with a strong foundation in frontend web
-        development and professional expertise as a backend developer.
+        Fueled by my passion for software development, I have built a strong
+        foundation in frontend technologies and honed my skills as a backend
+        developer.
+        <br className="sm:hidden" /> <br className="sm:hidden" />I love creating
+        intuitive, responsive, and high-performance user interfaces, paired with
+        robust web APIs and microservices.
         <br className="sm:hidden" /> <br className="sm:hidden" />
-        {
-          "I design intuitive, responsive, and high-performance user interfaces, supported by robust web APIs and microservices that cater to end users' needs."
-        }
+        My projects reflect my dedication to crafting solutions that meet
+        diverse user needs and showcase my continuous growth in the field.
       </div>
     </div>
   );
