@@ -7,6 +7,12 @@ import "../styles/globals.css";
 
 const inter = Inter({ subsets: ["latin"] });
 
+export const metadata = {
+  title: "George Isiguzo | Software Developer",
+  description:
+    "A software developer with 3+ years of professional experience in software development. Java and JavaScript Expert. Currently focused on simplifying payments at Flutterwave",
+};
+
 function App({ Component, pageProps }) {
   return (
     <ThemeProvider>
