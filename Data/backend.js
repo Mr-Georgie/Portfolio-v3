@@ -1,8 +1,8 @@
 const projects = [
   {
     id: "paytabs-card-api",
-    title: "Paytabs Card API | Fintech",
-    projectName: "Paytabs Card API | Fintech",
+    title: "Paytabs Card API - Fintech",
+    projectName: "Paytabs Card API - Fintech",
     builtWith:
       "SpringBoot, Spring Security, Hibernate, Spring Data JPA, MySQL, AWS (EC2) & Maven",
     githubRepoLink: "",
@@ -15,8 +15,8 @@ const projects = [
   },
   {
     id: "paytabs-wallet-api",
-    title: "Paytabs Wallet API | Fintech",
-    projectName: "Paytabs Wallet API | Fintech",
+    title: "Paytabs Wallet API - Fintech",
+    projectName: "Paytabs Wallet API - Fintech",
     builtWith:
       "SpringBoot, Spring Security, Hibernate, Spring Data JPA, MySQL, AWS (EC2) & Maven",
     githubRepoLink: "",
@@ -29,8 +29,8 @@ const projects = [
   },
   {
     id: "express-card-api",
-    title: "Express Card API | Fintech",
-    projectName: "Express Card API | Fintech",
+    title: "Express Card API - Fintech",
+    projectName: "Express Card API - Fintech",
     builtWith: "Express.js, MySQL, and Sequelize",
     githubRepoLink: "https://github.com/Mr-Georgie/express-card-api",
     liveSiteLink: "",
@@ -68,8 +68,8 @@ const projects = [
   },
   {
     id: "lanisterpay",
-    title: "Lanister Pay API | Fintech",
-    projectName: "Lanister Pay API | Fintech",
+    title: "Lanister Pay API - Fintech",
+    projectName: "Lanister Pay API - Fintech",
     builtWith: "NodeJS & ExpressJS",
     githubRepoLink: "https://github.com/Mr-Georgie/lannister-pay-api",
     liveSiteLink: "",
@@ -83,8 +83,8 @@ const projects = [
   },
   {
     id: "currencyapi",
-    title: "Currency Rates API | Fintech",
-    projectName: "Currency Pay API | Fintech",
+    title: "Currency Rates API - Fintech",
+    projectName: "Currency Pay API - Fintech",
     builtWith: "NodeJS",
     githubRepoLink: "https://github.com/Mr-Georgie/currency-rates-api",
     liveSiteLink: "",

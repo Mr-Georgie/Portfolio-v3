@@ -29,13 +29,13 @@ export default function ProjectPage({ id }) {
               <div className="flex flex-col items-center gap-6 font-semibold pb-10 md:py-0">
                 <a
                   href={project.githubRepoLink}
-                  className="rounded-3xl py-2 bg-gray-200 hover:bg-gray-300 cursor-pointer w-72 md:w-44 text-center"
+                  className="rounded-3xl py-2 bg-gray-200 hover:bg-gray-300 dark:bg-[#366571] dark:hover:bg-[#274952] cursor-pointer w-72 md:w-44 text-center"
                 >
                   Github Repo
                 </a>
                 <a
                   href={project.liveSiteLink}
-                  className="rounded-3xl py-2 bg-gray-200 hover:bg-gray-300 cursor-pointer w-72 md:w-44 text-center"
+                  className="rounded-3xl py-2 bg-gray-200 hover:bg-gray-300 dark:bg-[#366571] dark:hover:bg-[#274952] cursor-pointer w-72 md:w-44 text-center"
                 >
                   Live Site
                 </a>
