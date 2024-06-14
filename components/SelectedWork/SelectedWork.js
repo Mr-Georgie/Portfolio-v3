@@ -64,7 +64,7 @@ export const SelectedWork = () => {
           />
           <div className="absolute left-0 bottom-0 h-16 bg-slate-900 opacity-80 w-full rounded-b-md">
             <div className="flex text-white py-4 px-3">
-              <span className="">Movie Library - 2021</span>
+              <span className="">Movie Library - 2020</span>
             </div>
           </div>
         </Link>
