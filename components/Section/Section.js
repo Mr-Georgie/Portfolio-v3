@@ -7,15 +7,20 @@ export const Section = ({ section }) => {
       className={`flex items-center gap-6 font-semibold text-sm overflow-x-scroll scrollbar-hidden ${styles["hide-scrollbar"]}`}
     >
       <Link
-        href="/experiences/projects"
+        href="/experiences/frontend"
         className={`${
-          section === "projects" ? "bg-gray-200" : ""
+          section === "frontend" ? "bg-gray-200" : ""
         } flex gap-2 rounded-3xl px-4 py-2 hover:bg-gray-300 cursor-pointer`}
       >
-        <span className="rounded-3xl px-2 py-1 bg-orange-200 text-xs hidden sm:inline">
-          15+
-        </span>
-        Projects
+        Frontend
+      </Link>
+      <Link
+        href="/experiences/backend"
+        className={`${
+          section === "backend" ? "bg-gray-200" : ""
+        } flex gap-2 rounded-3xl px-4 py-2 hover:bg-gray-300 cursor-pointer`}
+      >
+        Backend
       </Link>
       <Link
         href="/experiences/list"
@@ -23,21 +28,7 @@ export const Section = ({ section }) => {
           section === "list" ? "bg-gray-200" : ""
         } flex gap-2 rounded-3xl px-4 py-2 hover:bg-gray-300 cursor-pointer`}
       >
-        <span className="rounded-3xl px-2 py-1 bg-orange-200 text-xs hidden sm:inline">
-          3
-        </span>
         Experiences
-      </Link>
-      <Link
-        href="/experiences/tools"
-        className={`${
-          section === "tools" ? "bg-gray-200" : ""
-        } flex gap-2 rounded-3xl px-4 py-2 hover:bg-gray-300 cursor-pointer`}
-      >
-        <span className="rounded-3xl px-2 py-1 bg-orange-200 text-xs hidden sm:inline">
-          20+
-        </span>
-        Tools
       </Link>
     </div>
   );

@@ -1,11 +1,8 @@
+import backend from "@/Data/backend";
+import projects from "@/Data/projects";
 import { Navbar } from "@/components/Navbar/Navbar";
 import { Section } from "@/components/Section/Section";
-import projects from "@/Data/projects";
-import {
-  librariesAndFrameworks,
-  programmingLanguages,
-  toolsAndPlatforms,
-} from "@/Data/tools";
+import { TableComponent } from "@/components/Table/Table";
 import Head from "next/head";
 import Image from "next/image";
 import Link from "next/link";
@@ -29,7 +26,7 @@ export default function Experiences({ section }) {
         </div>
 
         {/* main */}
-        {section === "projects" && (
+        {section === "frontend" && (
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
             {projects.map((project) => (
               <Link
@@ -42,7 +39,6 @@ export default function Experiences({ section }) {
                   alt={`${project.title} screenshot`}
                   layout="fill"
                   objectFit="contain"
-                  placeholder="blur"
                 />
                 <div className="absolute left-0 bottom-0 h-16 bg-slate-900 opacity-80 w-full rounded-b-md">
                   <div className="flex text-white py-4 px-3">
@@ -412,55 +408,9 @@ export default function Experiences({ section }) {
           </div>
         )}
 
-        {section === "tools" && (
+        {section === "backend" && (
           <>
-            <div className="my-4">
-              <div>
-                <h3 className="my-3 text-xs">Programming Languages: </h3>
-              </div>
-              <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4">
-                {programmingLanguages.map((language, index) => (
-                  <div
-                    key={index}
-                    className="border bg-blue-300 w-full rounded-md text-white p-4"
-                  >
-                    <span className="font-bold uppercase">{language}</span>
-                  </div>
-                ))}
-              </div>
-            </div>
-            {/*  */}
-            <div className="my-4">
-              <div>
-                <h3 className="my-3 text-xs">Libraries{" & "}Frameworks : </h3>
-              </div>
-              <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4">
-                {librariesAndFrameworks.map((language, index) => (
-                  <div
-                    key={index}
-                    className="border bg-green-300 w-full rounded-md text-white p-4"
-                  >
-                    <span className="font-bold uppercase">{language}</span>
-                  </div>
-                ))}
-              </div>
-            </div>
-            {/*  */}
-            <div className="my-4">
-              <div>
-                <h3 className="my-3 text-xs">Tools{" & "}Platforms : </h3>
-              </div>
-              <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4">
-                {toolsAndPlatforms.map((language, index) => (
-                  <div
-                    key={index}
-                    className="border bg-orange-300 w-full rounded-md text-white p-4"
-                  >
-                    <span className="font-bold uppercase">{language}</span>
-                  </div>
-                ))}
-              </div>
-            </div>
+            <TableComponent backend={backend} />
           </>
         )}
       </div>
@@ -475,7 +425,7 @@ export const getServerSideProps = async (ctx) => {
     // If there's no section
     return {
       props: {
-        section: "projects",
+        section: "frontend",
       },
     };
   }

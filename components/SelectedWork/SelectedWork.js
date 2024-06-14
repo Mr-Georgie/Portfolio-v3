@@ -44,27 +44,27 @@ export const SelectedWork = () => {
           />
           <div className="absolute left-0 bottom-0 h-16 bg-slate-900 opacity-80 w-full rounded-b-md">
             <div className="flex text-white py-4 px-3">
-              <span className="">IDEABUDDY</span>
+              <span className="">IDEABUDDY - 2024</span>
             </div>
           </div>
         </Link>
 
         <Link
-          href="/projects/portfolio-v2"
+          href="/projects/movielibrary"
           className="border-2 rounded-md relative cursor-pointer hover:opacity-90"
         >
           <Image
             src={
-              "https://github.com/Mr-Georgie/Portfolio-v3/blob/main/public/static/images/port.png?raw=true"
+              "https://github.com/Mr-Georgie/Portfolio/blob/main/src/images/movie-library.gif?raw=true"
             }
-            alt="portfolio screenshot"
+            alt="movie lib screenshot"
             className="w-full"
             width={400}
             height={400}
           />
           <div className="absolute left-0 bottom-0 h-16 bg-slate-900 opacity-80 w-full rounded-b-md">
             <div className="flex text-white py-4 px-3">
-              <span className="">PORTFOLIO</span>
+              <span className="">Movie Library - 2021</span>
             </div>
           </div>
         </Link>

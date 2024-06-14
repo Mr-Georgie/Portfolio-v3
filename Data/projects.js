@@ -40,32 +40,6 @@ const projects = [
     category: ["responsive", "freelance", "mvp", "backend"],
   },
   {
-    id: "java-email-admin",
-    title: "Java Email Administrator",
-    projectName: "Java Email Administrator",
-    builtWith: "Core Java",
-    githubRepoLink: "https://github.com/Mr-Georgie/java-email-app",
-    liveSiteLink: "https://github.com/Mr-Georgie/java-email-app",
-    imageSource:
-      "https://github.com/Mr-Georgie/Portfolio-v3/blob/main/public/static/images/api1.jpg?raw=true",
-    projectDescription:
-      "This application automates the process of creating email accounts for new hires in an organization. \n It generates email addresses based on the provided information, allows setting mailbox capacity, and generates temporary passwords for new accounts.\n This code was refactored from a previously written app to showcase OOP design principles like implementing encapsulation with private variables and public methods for setting and getting information.",
-    category: ["clean-code", "oop", "automation", "backend"],
-  },
-  {
-    id: "express-card-api",
-    title: "Express Card API",
-    projectName: "Express Card API",
-    builtWith: "Built with Express.js, MySQL, and Sequelize",
-    githubRepoLink: "https://github.com/Mr-Georgie/express-card-api",
-    liveSiteLink: "",
-    imageSource:
-      "https://github.com/Mr-Georgie/Portfolio-v3/blob/main/public/static/images/api1.jpg?raw=true",
-    projectDescription:
-      "The Express Card API is a simulation of a card-api integration. It features a modular architecture with the main entry point defined in 'index.js' and utilizes ECMAScript modules ('type': 'module') \n It utilizes Express.js for web framework functionality, Nodemon for automatic server restarts, Body Parser for parsing HTTP request bodies, dotenv for environment variable management, MySQL2 for MySQL database connectivity, Node-fetch for making HTTP requests, and Sequelize as an ORM for interacting with the database.",
-    category: ["api", "backend"],
-  },
-  {
     id: "mojaglobal",
     title: "Moja Global Community | Open Source",
     projectName: "Moja Global",
@@ -96,7 +70,7 @@ const projects = [
     id: "oguname",
     title: "Oguname.com",
     projectName: "Oguname.com",
-    builtWith: "Built with VueJS, Laravel & TailwindCSS",
+    builtWith: "Built with HTML5, TailwindCSS, VueJS & Laravel ",
     githubRepoLink: "https://github.com/Mr-Georgie/ogunames-fe",
     liveSiteLink: "https://oguname.com",
     imageSource:
@@ -143,45 +117,6 @@ const projects = [
     projectDescription:
       "The first version of my web portfolio. \n I enjoyed building it as I got to practice conditional rendering in ReactJS and other ReactJS concepts I just learned",
     category: ["responsive"],
-  },
-  {
-    id: "lanisterpay",
-    title: "Lanister Pay API",
-    projectName: "Lanister Pay API",
-    builtWith: "Built with NodeJS/ExpressJS",
-    githubRepoLink: "https://github.com/Mr-Georgie/lannister-pay-api",
-    liveSiteLink: "",
-    imageSource:
-      "https://github.com/Mr-Georgie/Portfolio-v3/blob/main/public/static/images/api1.jpg?raw=true",
-    projectDescription:
-      "LannisterPay is a transaction payment splitting service (TPSS). \n This API was created for the 2022 Tech Heroes Interview by Flutterwave",
-    category: ["api", "backend"],
-  },
-  {
-    id: "currencyapi",
-    title: "Currency Rates API",
-    projectName: "Currency Pay API",
-    builtWith: "Built with NodeJS",
-    githubRepoLink: "https://github.com/Mr-Georgie/currency-rates-api",
-    liveSiteLink: "",
-    imageSource:
-      "https://github.com/Mr-Georgie/Portfolio-v3/blob/main/public/static/images/api1.jpg?raw=true",
-    projectDescription:
-      "A service integration to the Exchange Rates API exposing a RESTful endpoint. \n The endpoint will accept requests and returns a JSON object of the latest currency rates.",
-    category: ["api", "backend"],
-  },
-  {
-    id: "rentme",
-    title: "RentMe API",
-    projectName: "RentMe API",
-    builtWith: "Built with Python, Django",
-    githubRepoLink: "https://github.com/Mr-Georgie/currency-rates-api",
-    liveSiteLink: "",
-    imageSource:
-      "https://github.com/Mr-Georgie/Portfolio-v3/blob/main/public/static/images/api1.jpg?raw=true",
-    projectDescription:
-      "A service thst allows individuals and organizations to lease equipments for long or short term use.",
-    category: ["api", "backend"],
   },
 ];
 
