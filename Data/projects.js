@@ -102,7 +102,7 @@ const projects = [
     imageSource:
       "https://github.com/Mr-Georgie/Portfolio/blob/main/src/images/movie-library.gif?raw=true",
     projectDescription:
-      "As a movie lover, I built Movie Library in 2021 to allow me easily download movies from popular movie download sites with the click of a button.",
+      "As a movie lover, I built Movie Library in 2020 to allow me easily download movies from popular movie download sites with the click of a button.",
     category: ["responsive"],
   },
   {
