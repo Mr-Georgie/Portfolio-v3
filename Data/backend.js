@@ -1,5 +1,33 @@
 const projects = [
   {
+    id: "dms",
+    title: "Dispute Management System",
+    projectName: "Dispute Management System",
+    builtWith:
+      "HTML5, CSS, SpringBoot, Spring Security, Hibernate, Spring Data JPA, MySQL, AWS (EC2) & Maven",
+    githubRepoLink: "",
+    liveSiteLink: "",
+    projectDescription:
+      "This is an internal work tool which I worked on adding extra features to it including a file upload API which reads xlsx files, compares the records in it against the database records and give feedback to the dispute team. \nIt also included a data table on the frontend which had search and filter features for better user experience. \nAt the time of its completion, it led to a 50% improvement in dispute and chargeback resolution speed and a 25% increase in user adoption.",
+    category: ["api", "backend", "webapp"],
+    year: "2024",
+    madeAt: "Flutterwave",
+  },
+  {
+    id: "fiserv-card-api",
+    title: "Fiserv Card API - Fintech",
+    projectName: "Fiserv Card API - Fintech",
+    builtWith:
+      "SpringBoot, Spring Security, Hibernate, Spring Data JPA, MySQL, AWS (EC2) & Maven",
+    githubRepoLink: "",
+    liveSiteLink: "",
+    projectDescription:
+      "I worked on integrating the Fiserv Card API into Flutterwave’s infrastructure to facilitate seamless card payments across Europe and the UK. This project was particularly challenging due to the need to configure Spring Boot’s RestTemplate to use a self-signed SSL/TLS certificate, ensuring secure communication. \nLeveraging technologies like Spring Boot for its microservice architecture, Spring Security for robust authentication and authorization, and Spring Data JPA with Hibernate for efficient database management, I successfully navigated these challenges. \nThe result was a secure, scalable payment solution that significantly enhanced Flutterwave's payment capabilities in these regions.",
+    category: ["api", "backend"],
+    year: "2024",
+    madeAt: "Flutterwave",
+  },
+  {
     id: "paytabs-card-api",
     title: "Paytabs Card API - Fintech",
     projectName: "Paytabs Card API - Fintech",

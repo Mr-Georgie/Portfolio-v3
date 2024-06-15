@@ -28,26 +28,28 @@ export default function Experiences({ section }) {
         {/* main */}
         {section === "frontend" && (
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
-            {projects.map((project) => (
-              <Link
-                key={project.id}
-                href={`/projects/${project.id}`}
-                className="border-2 dark:border-0 rounded-md relative cursor-pointer hover:opacity-90 h-[180px] w-full"
-              >
-                <Image
-                  src={project.imageSource}
-                  alt={`${project.title} screenshot`}
-                  layout="fill"
-                  objectFit="contain"
-                  className="dark:opacity-80 rounded-md"
-                />
-                <div className="absolute left-0 bottom-0 h-16 bg-slate-900 opacity-80 w-full rounded-b-md">
-                  <div className="flex text-white py-4 px-3">
-                    <span className="">{project.title}</span>
+            {projects
+              .filter((p) => p.category !== "personal")
+              .map((project) => (
+                <Link
+                  key={project.id}
+                  href={`/projects/${project.id}`}
+                  className="border-2 dark:border-0 rounded-md relative cursor-pointer hover:opacity-90 h-[180px] w-full"
+                >
+                  <Image
+                    src={project.imageSource}
+                    alt={`${project.title} screenshot`}
+                    layout="fill"
+                    objectFit="contain"
+                    className="dark:opacity-80 rounded-md"
+                  />
+                  <div className="absolute left-0 bottom-0 h-16 bg-slate-900 opacity-80 w-full rounded-b-md">
+                    <div className="flex text-white py-4 px-3">
+                      <span className="">{project.title}</span>
+                    </div>
                   </div>
-                </div>
-              </Link>
-            ))}
+                </Link>
+              ))}
           </div>
         )}
 
@@ -414,6 +416,33 @@ export default function Experiences({ section }) {
             <TableComponent backend={backend} />
           </>
         )}
+
+        {section === "personal" && (
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+            {projects
+              .filter((p) => p.category === "personal")
+              .map((project) => (
+                <Link
+                  key={project.id}
+                  href={`/projects/${project.id}`}
+                  className="border-2 dark:border-0 rounded-md relative cursor-pointer hover:opacity-90 h-[180px] w-full"
+                >
+                  <Image
+                    src={project.imageSource}
+                    alt={`${project.title} screenshot`}
+                    layout="fill"
+                    objectFit="contain"
+                    className="dark:opacity-80 rounded-md"
+                  />
+                  <div className="absolute left-0 bottom-0 h-16 bg-slate-900 opacity-80 w-full rounded-b-md">
+                    <div className="flex text-white py-4 px-3">
+                      <span className="">{project.title}</span>
+                    </div>
+                  </div>
+                </Link>
+              ))}
+          </div>
+        )}
       </div>
     </div>
   );
@@ -426,7 +455,7 @@ export const getServerSideProps = async (ctx) => {
     // If there's no section
     return {
       props: {
-        section: "frontend",
+        section: "backend",
       },
     };
   }
