@@ -13,19 +13,6 @@ const projects = [
     category: "personal",
   },
   {
-    id: "portfolio-v2",
-    title: "Portfolio v2",
-    projectName: "Portfolio v2",
-    builtWith: "Built with ReactJS & TailwindCSS",
-    githubRepoLink: "https://github.com/Mr-Georgie/Portfolio",
-    liveSiteLink: "https://georgeisiguzo.netlify.app/",
-    imageSource:
-      "https://github.com/Mr-Georgie/Portfolio-v3/blob/main/public/static/images/port.png?raw=true",
-    projectDescription:
-      "This was the second version of my web portfolio \n Built with ReactJS, TailwindCSS and Headless UI. It's mobile responsive and has the light/dark theme switch feature",
-    category: "personal",
-  },
-  {
     id: "veliso",
     title: "Veliso Design",
     projectName: "Veliso Design",
@@ -54,19 +41,6 @@ const projects = [
     category: "community",
   },
   {
-    id: "big-sis-wedding",
-    title: "Big Sis' Wedding!",
-    projectName: "Big Sis' Wedding!",
-    builtWith: "Built with ReactJS & TailwindCSS",
-    githubRepoLink: "https://github.com/Mr-Georgie/wedding-template",
-    liveSiteLink: "https://chinonso-weds-kester.netlify.app/",
-    imageSource:
-      "https://github.com/Mr-Georgie/wedding-template/blob/main/src/images/Screenshot%202024-01-16%20at%2018.39.07.png?raw=true",
-    projectDescription:
-      "Built one page website for my sister's wedding in 2022 to provide the guest with important details about the occassion. \n Guest can also download their invitation cards on the website",
-    category: "personal",
-  },
-  {
     id: "oguname",
     title: "Oguname.com",
     projectName: "Oguname.com",
@@ -78,6 +52,32 @@ const projects = [
     projectDescription:
       "OguName.com is a web-based project that aspires to promote the digital inclusion and the preservation of the gun language. The gun language is spoken by the Ogu people who are a native of the West Africa coast. \n This project aims to archive the personal names of people from the ogu culture and documents the meanings, and the roots of ogu names in English Language. \n I contributed in building the User Interface with a group of fellow volunteers before handing it over to the organizers to complete the project",
     category: "community",
+  },
+  {
+    id: "portfolio-v2",
+    title: "Portfolio v2",
+    projectName: "Portfolio v2",
+    builtWith: "Built with ReactJS & TailwindCSS",
+    githubRepoLink: "https://github.com/Mr-Georgie/Portfolio",
+    liveSiteLink: "https://georgeisiguzo.netlify.app/",
+    imageSource:
+      "https://github.com/Mr-Georgie/Portfolio-v3/blob/main/public/static/images/port.png?raw=true",
+    projectDescription:
+      "This was the second version of my web portfolio \n Built with ReactJS, TailwindCSS and Headless UI. It's mobile responsive and has the light/dark theme switch feature",
+    category: "personal",
+  },
+  {
+    id: "big-sis-wedding",
+    title: "Big Sis' Wedding!",
+    projectName: "Big Sis' Wedding!",
+    builtWith: "Built with ReactJS & TailwindCSS",
+    githubRepoLink: "https://github.com/Mr-Georgie/wedding-template",
+    liveSiteLink: "https://chinonso-weds-kester.netlify.app/",
+    imageSource:
+      "https://github.com/Mr-Georgie/wedding-template/blob/main/src/images/Screenshot%202024-01-16%20at%2018.39.07.png?raw=true",
+    projectDescription:
+      "Built a one page website for my sister's wedding in 2022 to provide the guest with important details about the occassion. \n Guest can also download their invitation cards on the website",
+    category: "personal",
   },
   {
     id: "badagryanaesthesia",

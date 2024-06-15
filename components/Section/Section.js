@@ -22,14 +22,14 @@ export const Section = ({ section }) => {
       >
         Frontend
       </Link>
-      <Link
+      {/* <Link
         href="/experiences/personal"
         className={`${
           section === "personal" ? "bg-gray-200 dark:bg-[#366571] " : ""
         } flex gap-2 rounded-3xl px-4 py-2 hover:bg-gray-300 dark:hover:bg-[#274952] cursor-pointer`}
       >
         Personal
-      </Link>
+      </Link> */}
       <Link
         href="/experiences/list"
         className={`${
