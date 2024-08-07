@@ -51,7 +51,7 @@ export default function Experiences({ section }) {
           </div>
         )}
 
-        {section === "list" && (
+        {section === "oldlist" && (
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:mx-[70px] lg:mx-36">
             <div className=" hidden md:flex md:items-center">
               <div className="">
